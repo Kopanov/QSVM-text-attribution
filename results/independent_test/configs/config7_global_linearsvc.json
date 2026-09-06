@@ -1,0 +1,22 @@
+{
+  "config": 7,
+  "name": "Global classical LinearSVC, full 3018-d",
+  "train_n": 3480,
+  "n_test": 1000,
+  "test_accuracy": 0.977,
+  "per_class": {
+    "Gemma 3": {
+      "precision": 0.9685658153241651,
+      "recall": 0.986,
+      "f1": 0.977205153617443
+    },
+    "Qwen 2.5": {
+      "precision": 0.9857433808553971,
+      "recall": 0.968,
+      "f1": 0.9767911200807265
+    }
+  },
+  "seconds": 0.7509956359863281,
+  "frozen": true,
+  "corpus": "expB_testset/test_wide.csv"
+}

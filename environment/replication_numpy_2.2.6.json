@@ -1,0 +1,15 @@
+{
+  "role": "Replication stack used for Experiment 2.5, the independent test-set evaluation, and kernel-concentration diagnostics",
+  "python": "3.12.x",
+  "numpy": "2.2.6",
+  "sklearn": "1.7.1",
+  "qiskit": "1.4.3",
+  "qiskit_machine_learning": "0.8.3",
+  "qiskit_aer": "0.17.1",
+  "vllm": "0.17.1",
+  "gate": {
+    "LinearSVC_3480_1160": "98.02% PASS",
+    "QSVM_d8_600_400": "85.75% vs published 88.00% FAIL"
+  },
+  "note": "Replication environment for Experiment 2.5, independent testing, and kernel-concentration diagnostics."
+}

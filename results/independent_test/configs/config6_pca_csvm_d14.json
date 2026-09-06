@@ -1,0 +1,22 @@
+{
+  "config": 6,
+  "name": "PCA+CSVM dim=14 RBF C=100 (best Experiment A)",
+  "train_n": 3480,
+  "n_test": 1000,
+  "test_accuracy": 0.956,
+  "per_class": {
+    "Gemma 3": {
+      "precision": 0.9634146341463414,
+      "recall": 0.948,
+      "f1": 0.9556451612903226
+    },
+    "Qwen 2.5": {
+      "precision": 0.9488188976377953,
+      "recall": 0.964,
+      "f1": 0.9563492063492064
+    }
+  },
+  "seconds": 5.8016345500946045,
+  "frozen": true,
+  "corpus": "expB_testset/test_wide.csv"
+}

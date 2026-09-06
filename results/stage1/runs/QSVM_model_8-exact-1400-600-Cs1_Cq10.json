@@ -1,0 +1,282 @@
+{
+  "experiment_configuration": {
+    "training_samples": 1400,
+    "validation_samples": 600,
+    "training_samples_requested": 1400,
+    "validation_samples_requested": 600,
+    "data_file": "Qwen2.5-and-Gemma3-train.csv",
+    "random_state": 42,
+    "global_rng_seed": 42
+  },
+  "software_versions": {
+    "python": "3.12.2 | packaged by conda-forge | (main, Feb 16 2024, 20:50:58) [GCC 12.3.0]",
+    "numpy": "1.26.4",
+    "scipy": "1.15.3",
+    "sklearn": "1.7.1",
+    "qiskit": "1.4.3",
+    "qiskit_machine_learning": "0.8.3",
+    "qiskit_aer": "0.17.1",
+    "pandas": "2.2.3",
+    "psutil": "7.0.0",
+    "matplotlib": "3.10.3",
+    "nltk": "3.9.1",
+    "joblib": "1.5.1",
+    "git_hash": "47c928b"
+  },
+  "dataset_statistics": {
+    "total_samples_loaded": 4000,
+    "total_features": 3018,
+    "tfidf_max_features": 3000,
+    "tfidf_features_actual": 3000,
+    "linguistic_features": 18,
+    "feature_breakdown": "3018 total (3000 TF-IDF + 18 linguistic)",
+    "train_samples_full": 3200,
+    "validation_samples_full": 800,
+    "train_samples_used": 1400,
+    "validation_samples_used": 600,
+    "feature_extraction_method": "TF-IDF + Linguistic Features (Enhanced)",
+    "dimensionality_reduction": "PCA (for quantum only)"
+  },
+  "preprocessing_parameters": {
+    "feature_extraction_method": "TF-IDF + Linguistic Features",
+    "tfidf_params": {
+      "max_features": 3000,
+      "ngram_range": [
+        1,
+        2
+      ],
+      "min_df": 5,
+      "max_df": 0.7,
+      "stop_words": "english",
+      "lowercase": true,
+      "strip_accents": "ascii"
+    },
+    "linguistic_features_enabled": true,
+    "lexical_features": "word length, vocabulary richness, text statistics (6 features)",
+    "syntactic_features": "POS ratios, punctuation density, complexity scores (6 features)",
+    "stylistic_features": "formality patterns, contractions, punctuation usage (6 features)",
+    "total_linguistic_features": 18,
+    "feature_scaling": "StandardScaler for linguistic features",
+    "quantum_preprocessing": "StandardScaler \u2192 PCA \u2192 [0, 2\u03c0] normalization (all fitted on training data only)",
+    "stratified_sampling": true
+  },
+  "classical_svm_hyperparameters": {
+    "algorithm": "LinearSVM with Isotonic Calibration",
+    "C": 1.0,
+    "C_env_var": "SVM_C",
+    "svm_params": {
+      "C": 1.0,
+      "class_weight": "balanced",
+      "dual": false,
+      "max_iter": 2000,
+      "penalty": "l2",
+      "tol": 0.0001,
+      "loss": "squared_hinge",
+      "random_state": 42
+    },
+    "calibration_params": {
+      "method": "isotonic",
+      "cv": 5,
+      "n_jobs": 1
+    }
+  },
+  "quantum_svm_hyperparameters": {
+    "algorithm": "QSVC with FidelityStatevectorKernel",
+    "backend_requested": "qiskit_statevector_deterministic",
+    "backend_used": "qiskit_statevector_deterministic",
+    "backend_info": "Exact statevector kernel (FidelityStatevectorKernel, noiseless)",
+    "gpu_acceleration": "Disabled",
+    "feature_map": "ZZFeatureMap",
+    "feature_map_reps": 2,
+    "feature_map_entanglement": "linear",
+    "kernel": "FidelityStatevectorKernel",
+    "kernel_mode": "exact_noiseless",
+    "quantum_feature_dim": 8,
+    "quantum_shots": "exact",
+    "statevector_shots": null,
+    "C": 10.0,
+    "C_env_var": "QSVM_C",
+    "class_weight": "balanced",
+    "pca_components": 8,
+    "batch_training_enabled": false,
+    "batch_size": null,
+    "ensemble_method": null,
+    "batch_strategy": null,
+    "models_per_ensemble": 1,
+    "auto_slicing_enabled": false,
+    "slicing_threshold_gb": 40,
+    "slicing_used": false,
+    "slicing_slices": 0,
+    "slicing_memory_gb": 0,
+    "slicing_memory_percent": 0,
+    "slicing_server": "Unknown",
+    "parallelism_mode": null,
+    "parallel_cv_folds": null,
+    "total_processes": null,
+    "cv_folds": 5,
+    "pca_random_state": 42,
+    "feature_normalization": "[0, 2\u03c0] range (fitted on training data, applied to both splits)"
+  },
+  "system_info": {
+    "cpu": {
+      "cpu_cores_physical": 64,
+      "cpu_cores_logical": 64,
+      "cpu_freq_max": 3400.0,
+      "cpu_freq_current": 2178.783359375
+    },
+    "memory": {
+      "total_memory_gb": 251.16,
+      "available_memory_gb": 241.66
+    },
+    "gpu": {
+      "gpu_available": false,
+      "note": "No GPU detected or nvidia-smi not available"
+    },
+    "platform": "Linux 5.14.21-150400.22-default"
+  },
+  "classical": {
+    "description": "Classical SVM Results: LinearSVM with Isotonic Calibration. Overall metrics represent validation set performance (generalization). Training metrics help detect overfitting. Per-class metrics show individual Gemma and Qwen performance. Timing metrics provide computational analysis.",
+    "accuracy": 0.9733333333333334,
+    "precision": 0.9733543713053913,
+    "recall": 0.9733333333333334,
+    "f1_score": 0.9733330370337447,
+    "training_accuracy": 0.9992857142857143,
+    "training_precision": 0.999286733238231,
+    "training_recall": 0.9992857142857143,
+    "training_f1_score": 0.9992857139212827,
+    "per_class_metrics": {
+      "gemma_precision": 0.9765100671140939,
+      "gemma_recall": 0.97,
+      "gemma_f1_score": 0.9732441471571907,
+      "gemma_support": 300.0,
+      "qwen_precision": 0.9701986754966887,
+      "qwen_recall": 0.9766666666666667,
+      "qwen_f1_score": 0.973421926910299,
+      "qwen_support": 300.0
+    },
+    "timing": {
+      "training_time": 0.1793055534362793,
+      "prediction_time": 0.012223482131958008,
+      "total_time": 0.2158336639404297,
+      "feature_importance_time": 66.21596908569336
+    },
+    "training_time": 0.1793055534362793,
+    "prediction_time": 0.012223482131958008,
+    "total_time": 0.2158336639404297,
+    "support_vectors": "N/A (LinearSVC)",
+    "samples_used_training": 1400,
+    "samples_used_validation": 600
+  },
+  "quantum": {
+    "description": "Quantum SVM Results: QSVC with FidelityStatevectorKernel using ZZFeatureMap.",
+    "accuracy": 0.7433333333333333,
+    "precision": 0.743864415838938,
+    "recall": 0.7433333333333333,
+    "f1_score": 0.7431935164700781,
+    "training_accuracy": 1.0,
+    "training_precision": 1.0,
+    "training_recall": 1.0,
+    "training_f1_score": 1.0,
+    "per_class_metrics": {
+      "gemma_precision": 0.7552447552447552,
+      "gemma_recall": 0.72,
+      "gemma_f1_score": 0.7372013651877133,
+      "gemma_support": 300.0,
+      "qwen_precision": 0.732484076433121,
+      "qwen_recall": 0.7666666666666667,
+      "qwen_f1_score": 0.749185667752443,
+      "qwen_support": 300.0
+    },
+    "timing": {
+      "core_computation": {
+        "circuit_training_time": 15.439166784286499,
+        "prediction_time": 26.610941886901855,
+        "final_model_time": 42.05011034011841,
+        "core_total_time": 181.25136423110962,
+        "description": "Core quantum computation time (training + prediction, no post-processing)"
+      },
+      "post_processing": {
+        "post_processing_time": 33.01664137840271,
+        "components": "Includes: t-SNE visualization, Davies-Bouldin Index, feature importance analysis, silhouette analysis, JSON/CSV generation, model serialization",
+        "description": "Time spent on analysis, visualization, and data export after model training"
+      },
+      "total": {
+        "total_time": 214.26800656318665,
+        "description": "Total experimental time from start to finish (includes everything)"
+      },
+      "breakdown_percent": {
+        "circuit_training_pct": 7.205539936609043,
+        "prediction_pct": 12.419465842677923,
+        "post_processing_pct": 15.409039318553727
+      }
+    },
+    "circuit_training_time": 15.439166784286499,
+    "prediction_time": 26.610941886901855,
+    "total_time": 214.26800656318665,
+    "final_model_time": 42.05011034011841,
+    "feature_dimension": 8,
+    "quantum_shots": "exact",
+    "pca_explained_variance": 0.05801225033009572,
+    "kernel_matrix_entries": 1960000,
+    "kernel_computation_method": "exact_statevector",
+    "samples_used_training": 1400,
+    "samples_used_validation": 600,
+    "cross_validation_enabled": true,
+    "cv_folds_used": 5,
+    "cv_mean_train_accuracy": 1.0,
+    "cv_std_train_accuracy": 0.0,
+    "cv_mean_val_accuracy": 0.7642857142857145,
+    "cv_std_val_accuracy": 0.03327375628243461,
+    "tsne_report_enabled": false,
+    "tsne_visualization_enabled": false,
+    "tsne_parameters": null,
+    "tsne_analysis_report": null,
+    "auto_slicing_enabled": false,
+    "slicing_used": false,
+    "slicing_slices": 0,
+    "slicing_memory_gb": 0,
+    "slicing_memory_percent": 0,
+    "slicing_server": "Unknown",
+    "slicing_threshold_gb": 40
+  },
+  "pipeline_timing": {
+    "description": "Wall-clock seconds for each pipeline stage. Post-processing values are patched after completion.",
+    "data_loading": 19.995,
+    "preprocessing": 41.277,
+    "classical_svm_training": 0.216,
+    "classical_feature_importance": 66.216,
+    "quantum_svm_training": 181.251,
+    "quantum_feature_importance": 1.624,
+    "model_serialization": 0.014,
+    "json_results_writing": 0.042,
+    "tsne_dbi_silhouette": 0,
+    "file_io_and_artifacts": 0.062,
+    "post_processing_total": 33.017,
+    "pipeline_total": 350.773
+  },
+  "_overview_note": "Concise overview. Full feature importance and raw resource time-series in training_results.json and resource_timeseries.csv.",
+  "quick_summary": {
+    "classical_accuracy": 0.9733333333333334,
+    "quantum_accuracy": 0.7433333333333333,
+    "accuracy_difference": -0.2300000000000001,
+    "quantum_better": false,
+    "classical_training_time_s": 0.22,
+    "quantum_core_time_s": 181.25,
+    "speedup_factor": 0.0,
+    "quantum_feature_dim": 8,
+    "training_samples": 1400,
+    "validation_samples": 600,
+    "backend": "qiskit_statevector_deterministic",
+    "svm_c": 1.0,
+    "qsvm_c": 10.0,
+    "cv_folds": 5,
+    "batch_training": false,
+    "post_processing_time_s": 33.02,
+    "pipeline_total_time_s": 350.77,
+    "pipeline_total_time_h": 0.097,
+    "peak_process_memory_mb": 476.8,
+    "peak_tree_memory_mb": 476.8,
+    "peak_system_memory_gb": 9.88,
+    "kernel_peak_memory_mb_VmHWM": 555.1
+  }
+}

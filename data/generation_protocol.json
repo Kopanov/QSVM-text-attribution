@@ -1,0 +1,26 @@
+{
+  "models": {
+    "gemma": "google/gemma-3-27b-it",
+    "qwen": "Qwen/Qwen2.5-32B-Instruct"
+  },
+  "serving": {
+    "engine": "vLLM OpenAI-compatible HTTP API",
+    "vllm_version": "0.17.1",
+    "tensor_parallel_size": 8,
+    "dtype": "bfloat16"
+  },
+  "prompt_template": {
+    "system": "You are a helpful creative writing assistant.",
+    "user": "{prompt}\\nProvide only the answer. The result should be a creative, well-written text of 200-250 words."
+  },
+  "decoding": {
+    "seed": 42,
+    "temperature": 0.6,
+    "top_p": 0.95,
+    "top_k": 30,
+    "repetition_penalty": 1.1,
+    "max_new_tokens": 512,
+    "do_sample": true
+  },
+  "independent_test_note": "Five Qwen outputs (B0154, B0278, B0281, B0285, B0445) were regenerated under the same settings after mixed-language or length failures."
+}

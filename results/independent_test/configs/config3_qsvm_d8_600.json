@@ -1,0 +1,27 @@
+{
+  "config": 3,
+  "name": "QSVM dim=8, C=1, ZZ reps=2, train 600 (paper sweet-spot split)",
+  "dim": 8,
+  "C": 1.0,
+  "feature_map": "ZZFeatureMap",
+  "reps": 2,
+  "train_n": 600,
+  "n_test": 1000,
+  "test_accuracy": 0.798,
+  "per_class": {
+    "Gemma 3": {
+      "precision": 0.8267543859649122,
+      "recall": 0.754,
+      "f1": 0.7887029288702929
+    },
+    "Qwen 2.5": {
+      "precision": 0.7738970588235294,
+      "recall": 0.842,
+      "f1": 0.8065134099616859
+    }
+  },
+  "seconds": 12.161352634429932,
+  "kernel": "fidelity_statevector_exact",
+  "frozen": true,
+  "corpus": "expB_testset/test_wide.csv"
+}

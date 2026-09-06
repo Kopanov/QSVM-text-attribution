@@ -1,0 +1,23 @@
+{
+  "config": 5,
+  "name": "Experiment 2.4 classical LinearSVC, 14 MI stylometric features",
+  "train_n": 3480,
+  "n_test": 1000,
+  "test_accuracy": 0.906,
+  "per_class": {
+    "Gemma 3": {
+      "precision": 0.9011857707509882,
+      "recall": 0.912,
+      "f1": 0.9065606361829026
+    },
+    "Qwen 2.5": {
+      "precision": 0.9109311740890689,
+      "recall": 0.9,
+      "f1": 0.9054325955734407
+    }
+  },
+  "seconds": 0.04868650436401367,
+  "n_features": 14,
+  "frozen": true,
+  "corpus": "expB_testset/test_wide.csv"
+}

@@ -1,0 +1,15 @@
+{
+  "role": "Table A1 / published Stage 1 and Stage 2 stack",
+  "python": "3.12.2 (conda-forge)",
+  "numpy": "1.26.4",
+  "scipy": "1.15.3",
+  "sklearn": "1.7.1",
+  "qiskit": "1.4.3",
+  "qiskit_machine_learning": "0.8.3",
+  "qiskit_aer": "0.17.1",
+  "pandas": "2.2.3",
+  "nltk": "3.9.1",
+  "joblib": "1.5.1",
+  "git_hash": "47c928b",
+  "note": "The same software-version block was embedded in each original run artifact. Public run JSONs retain the software block but omit scheduler and host identifiers."
+}

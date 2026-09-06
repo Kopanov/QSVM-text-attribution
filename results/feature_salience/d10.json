@@ -1,0 +1,1608 @@
+{
+  "configuration": "QSVM_model_10-exact-1600-600-Cs1_Cq1",
+  "dimension": 10,
+  "method": "PCA representation salience: normalized explained-variance-weighted absolute loadings (paper Equation 5); independent of the trained classifier.",
+  "top_100_features": [
+    {
+      "feature": "syntactic_noun_ratio",
+      "importance_score": 0.12181294568956097,
+      "importance_percentage": 0.12181294568956097,
+      "model_association": {
+        "gemma_mean_value": 0.35513544687988297,
+        "qwen_mean_value": -0.3142107536675786,
+        "gemma_frequency": 0.6036363636363636,
+        "qwen_frequency": 0.37545454545454543,
+        "preferred_model": "Gemma 3",
+        "confidence": 1.0,
+        "difference": 0.6693462005474615
+      }
+    },
+    {
+      "feature": "lexical_avg_sent_len",
+      "importance_score": 0.12085913122056922,
+      "importance_percentage": 0.12085913122056922,
+      "model_association": {
+        "gemma_mean_value": -0.5946238138984472,
+        "qwen_mean_value": 0.5744069719576254,
+        "gemma_frequency": 0.18181818181818182,
+        "qwen_frequency": 0.7872727272727272,
+        "preferred_model": "Qwen 2.5",
+        "confidence": 1.0,
+        "difference": 1.1690307858560725
+      }
+    },
+    {
+      "feature": "syntactic_complexity",
+      "importance_score": 0.11846430334507413,
+      "importance_percentage": 0.11846430334507413,
+      "model_association": {
+        "gemma_mean_value": -0.5531394375547843,
+        "qwen_mean_value": 0.5238047127219236,
+        "gemma_frequency": 0.3409090909090909,
+        "qwen_frequency": 0.8645454545454545,
+        "preferred_model": "Qwen 2.5",
+        "confidence": 1.0,
+        "difference": 1.076944150276708
+      }
+    },
+    {
+      "feature": "stylistic_exclaim_ratio",
+      "importance_score": 0.1174514730681422,
+      "importance_percentage": 0.1174514730681422,
+      "model_association": {
+        "gemma_mean_value": 0.23295214989367125,
+        "qwen_mean_value": -0.17087371300510262,
+        "gemma_frequency": 0.48363636363636364,
+        "qwen_frequency": 0.21636363636363637,
+        "preferred_model": "Gemma 3",
+        "confidence": 1.0,
+        "difference": 0.40382586289877387
+      }
+    },
+    {
+      "feature": "syntactic_punct_density",
+      "importance_score": 0.1162941501377151,
+      "importance_percentage": 0.1162941501377151,
+      "model_association": {
+        "gemma_mean_value": 0.6120914716668895,
+        "qwen_mean_value": -0.6273308966111472,
+        "gemma_frequency": 0.7245454545454545,
+        "qwen_frequency": 0.09545454545454546,
+        "preferred_model": "Gemma 3",
+        "confidence": 1.0,
+        "difference": 1.2394223682780368
+      }
+    },
+    {
+      "feature": "stylistic_capital_ratio",
+      "importance_score": 0.11384847453930928,
+      "importance_percentage": 0.11384847453930928,
+      "model_association": {
+        "gemma_mean_value": 0.569052396754851,
+        "qwen_mean_value": -0.5349430965210262,
+        "gemma_frequency": 0.7118181818181818,
+        "qwen_frequency": 0.19272727272727272,
+        "preferred_model": "Gemma 3",
+        "confidence": 1.0,
+        "difference": 1.1039954932758773
+      }
+    },
+    {
+      "feature": "lexical_avg_word_len",
+      "importance_score": 0.11074688791300619,
+      "importance_percentage": 0.11074688791300619,
+      "model_association": {
+        "gemma_mean_value": 0.028823758956696772,
+        "qwen_mean_value": -0.0798505867242112,
+        "gemma_frequency": 0.5209090909090909,
+        "qwen_frequency": 0.49272727272727274,
+        "preferred_model": "Gemma 3",
+        "confidence": 1.0,
+        "difference": 0.10867434568090797
+      }
+    },
+    {
+      "feature": "lexical_char_count",
+      "importance_score": 0.1036174432835859,
+      "importance_percentage": 0.1036174432835859,
+      "model_association": {
+        "gemma_mean_value": 0.16666125528158124,
+        "qwen_mean_value": -0.16384123970383016,
+        "gemma_frequency": 0.5218181818181818,
+        "qwen_frequency": 0.4390909090909091,
+        "preferred_model": "Gemma 3",
+        "confidence": 1.0,
+        "difference": 0.3305024949854114
+      }
+    },
+    {
+      "feature": "dry",
+      "importance_score": 0.10311029552817043,
+      "importance_percentage": 0.10311029552817043,
+      "model_association": {
+        "gemma_mean_value": 0.005417559238161028,
+        "qwen_mean_value": 0.006658214956387945,
+        "gemma_frequency": 0.05818181818181818,
+        "qwen_frequency": 0.053636363636363635,
+        "preferred_model": "Qwen 2.5",
+        "confidence": 0.10273922799806506,
+        "difference": 0.0012406557182269174
+      }
+    },
+    {
+      "feature": "interpreting",
+      "importance_score": 0.1002897347350268,
+      "importance_percentage": 0.1002897347350268,
+      "model_association": {
+        "gemma_mean_value": 0.004049484294539098,
+        "qwen_mean_value": 0.0058591586707608554,
+        "gemma_frequency": 0.053636363636363635,
+        "qwen_frequency": 0.07181818181818182,
+        "preferred_model": "Qwen 2.5",
+        "confidence": 0.18263594546288867,
+        "difference": 0.0018096743762217576
+      }
+    },
+    {
+      "feature": "data",
+      "importance_score": 0.09823352640974499,
+      "importance_percentage": 0.09823352640974499,
+      "model_association": {
+        "gemma_mean_value": 0.026773516907632716,
+        "qwen_mean_value": 0.02857337820501938,
+        "gemma_frequency": 0.26181818181818184,
+        "qwen_frequency": 0.25363636363636366,
+        "preferred_model": "Qwen 2.5",
+        "confidence": 0.03251964349080933,
+        "difference": 0.0017998612973866637
+      }
+    },
+    {
+      "feature": "syntactic_adv_ratio",
+      "importance_score": 0.09649914948872197,
+      "importance_percentage": 0.09649914948872197,
+      "model_association": {
+        "gemma_mean_value": 0.1297014539366634,
+        "qwen_mean_value": -0.16570652892394,
+        "gemma_frequency": 0.5145454545454545,
+        "qwen_frequency": 0.38636363636363635,
+        "preferred_model": "Gemma 3",
+        "confidence": 1.0,
+        "difference": 0.29540798286060344
+      }
+    },
+    {
+      "feature": "homemade",
+      "importance_score": 0.09428525269817131,
+      "importance_percentage": 0.09428525269817131,
+      "model_association": {
+        "gemma_mean_value": 0.0017016044949171088,
+        "qwen_mean_value": 0.0025070962237190436,
+        "gemma_frequency": 0.019090909090909092,
+        "qwen_frequency": 0.024545454545454544,
+        "preferred_model": "Qwen 2.5",
+        "confidence": 0.19138726715235715,
+        "difference": 0.0008054917288019348
+      }
+    },
+    {
+      "feature": "imagine",
+      "importance_score": 0.09379915372252455,
+      "importance_percentage": 0.09379915372252455,
+      "model_association": {
+        "gemma_mean_value": 0.016401191374911812,
+        "qwen_mean_value": 0.009029369018763495,
+        "gemma_frequency": 0.3336363636363636,
+        "qwen_frequency": 0.17454545454545456,
+        "preferred_model": "Gemma 3",
+        "confidence": 0.28988045257475814,
+        "difference": 0.0073718223561483175
+      }
+    },
+    {
+      "feature": "thoroughly",
+      "importance_score": 0.09224984658414492,
+      "importance_percentage": 0.09224984658414492,
+      "model_association": {
+        "gemma_mean_value": 0.002770831305988422,
+        "qwen_mean_value": 0.003745495095775675,
+        "gemma_frequency": 0.03272727272727273,
+        "qwen_frequency": 0.03909090909090909,
+        "preferred_model": "Qwen 2.5",
+        "confidence": 0.14957258579364474,
+        "difference": 0.0009746637897872527
+      }
+    },
+    {
+      "feature": "gently",
+      "importance_score": 0.0920348121019289,
+      "importance_percentage": 0.0920348121019289,
+      "model_association": {
+        "gemma_mean_value": 0.006912323736755466,
+        "qwen_mean_value": 0.0059800325751754755,
+        "gemma_frequency": 0.07090909090909091,
+        "qwen_frequency": 0.06545454545454546,
+        "preferred_model": "Gemma 3",
+        "confidence": 0.07231348087371917,
+        "difference": 0.0009322911615799907
+      }
+    },
+    {
+      "feature": "stylistic_question_ratio",
+      "importance_score": 0.09098031392559787,
+      "importance_percentage": 0.09098031392559787,
+      "model_association": {
+        "gemma_mean_value": 0.32995498027908987,
+        "qwen_mean_value": -0.28188563987027443,
+        "gemma_frequency": 0.5345454545454545,
+        "qwen_frequency": 0.15636363636363637,
+        "preferred_model": "Gemma 3",
+        "confidence": 1.0,
+        "difference": 0.6118406201493642
+      }
+    },
+    {
+      "feature": "felt",
+      "importance_score": 0.0908810791583243,
+      "importance_percentage": 0.0908810791583243,
+      "model_association": {
+        "gemma_mean_value": 0.011540397783296925,
+        "qwen_mean_value": 0.006893662215483123,
+        "gemma_frequency": 0.11818181818181818,
+        "qwen_frequency": 0.0809090909090909,
+        "preferred_model": "Gemma 3",
+        "confidence": 0.2520733668069497,
+        "difference": 0.004646735567813802
+      }
+    },
+    {
+      "feature": "eyes",
+      "importance_score": 0.09081490858090344,
+      "importance_percentage": 0.09081490858090344,
+      "model_association": {
+        "gemma_mean_value": 0.006750694463224183,
+        "qwen_mean_value": 0.009510317613352633,
+        "gemma_frequency": 0.07909090909090909,
+        "qwen_frequency": 0.1009090909090909,
+        "preferred_model": "Qwen 2.5",
+        "confidence": 0.16970795772936859,
+        "difference": 0.0027596231501284506
+      }
+    },
+    {
+      "feature": "mixture",
+      "importance_score": 0.09055524474180066,
+      "importance_percentage": 0.09055524474180066,
+      "model_association": {
+        "gemma_mean_value": 0.0008519711894277123,
+        "qwen_mean_value": 0.0031668117304716865,
+        "gemma_frequency": 0.008181818181818182,
+        "qwen_frequency": 0.026363636363636363,
+        "preferred_model": "Qwen 2.5",
+        "confidence": 0.5760053695813758,
+        "difference": 0.0023148405410439742
+      }
+    },
+    {
+      "feature": "syntactic_adj_ratio",
+      "importance_score": 0.08912939733677157,
+      "importance_percentage": 0.08912939733677157,
+      "model_association": {
+        "gemma_mean_value": 0.07400808209490797,
+        "qwen_mean_value": -0.09593318676795438,
+        "gemma_frequency": 0.5363636363636364,
+        "qwen_frequency": 0.45636363636363636,
+        "preferred_model": "Gemma 3",
+        "confidence": 1.0,
+        "difference": 0.16994126886286237
+      }
+    },
+    {
+      "feature": "economic",
+      "importance_score": 0.08912070760376682,
+      "importance_percentage": 0.08912070760376682,
+      "model_association": {
+        "gemma_mean_value": 0.004658753555806623,
+        "qwen_mean_value": 0.007959870109762696,
+        "gemma_frequency": 0.05090909090909091,
+        "qwen_frequency": 0.060909090909090906,
+        "preferred_model": "Qwen 2.5",
+        "confidence": 0.2616067046173483,
+        "difference": 0.0033011165539560735
+      }
+    },
+    {
+      "feature": "like",
+      "importance_score": 0.08831702064597274,
+      "importance_percentage": 0.08831702064597274,
+      "model_association": {
+        "gemma_mean_value": 0.028858910851491153,
+        "qwen_mean_value": 0.03042031939479021,
+        "gemma_frequency": 0.5481818181818182,
+        "qwen_frequency": 0.6045454545454545,
+        "preferred_model": "Qwen 2.5",
+        "confidence": 0.026339892350356622,
+        "difference": 0.0015614085432990553
+      }
+    },
+    {
+      "feature": "maybe",
+      "importance_score": 0.08694039019136324,
+      "importance_percentage": 0.08694039019136324,
+      "model_association": {
+        "gemma_mean_value": 0.00897093249937444,
+        "qwen_mean_value": 0.006670361888851733,
+        "gemma_frequency": 0.08636363636363636,
+        "qwen_frequency": 0.057272727272727274,
+        "preferred_model": "Gemma 3",
+        "confidence": 0.1470831347726847,
+        "difference": 0.002300570610522707
+      }
+    },
+    {
+      "feature": "just",
+      "importance_score": 0.08510482894789581,
+      "importance_percentage": 0.08510482894789581,
+      "model_association": {
+        "gemma_mean_value": 0.030079387666988953,
+        "qwen_mean_value": 0.02268279769224973,
+        "gemma_frequency": 0.62,
+        "qwen_frequency": 0.4709090909090909,
+        "preferred_model": "Gemma 3",
+        "confidence": 0.14018733159702368,
+        "difference": 0.007396589974739222
+      }
+    },
+    {
+      "feature": "hey",
+      "importance_score": 0.0841537557187496,
+      "importance_percentage": 0.0841537557187496,
+      "model_association": {
+        "gemma_mean_value": 0.001989300649661694,
+        "qwen_mean_value": 0.00630243544843231,
+        "gemma_frequency": 0.02090909090909091,
+        "qwen_frequency": 0.05090909090909091,
+        "preferred_model": "Qwen 2.5",
+        "confidence": 0.5201727054195637,
+        "difference": 0.004313134798770615
+      }
+    },
+    {
+      "feature": "bowl",
+      "importance_score": 0.08414578515497749,
+      "importance_percentage": 0.08414578515497749,
+      "model_association": {
+        "gemma_mean_value": 0.0022927903665361706,
+        "qwen_mean_value": 0.00268529122247861,
+        "gemma_frequency": 0.02,
+        "qwen_frequency": 0.023636363636363636,
+        "preferred_model": "Qwen 2.5",
+        "confidence": 0.07884580614519816,
+        "difference": 0.0003925008559424394
+      }
+    },
+    {
+      "feature": "visually",
+      "importance_score": 0.08283769990893809,
+      "importance_percentage": 0.08283769990893809,
+      "model_association": {
+        "gemma_mean_value": 0.005037652118089394,
+        "qwen_mean_value": 0.0030104692934896414,
+        "gemma_frequency": 0.06636363636363636,
+        "qwen_frequency": 0.04090909090909091,
+        "preferred_model": "Gemma 3",
+        "confidence": 0.251882733985995,
+        "difference": 0.002027182824599753
+      }
+    },
+    {
+      "feature": "cleaning",
+      "importance_score": 0.08245213593890259,
+      "importance_percentage": 0.08245213593890259,
+      "model_association": {
+        "gemma_mean_value": 0.004839163532234923,
+        "qwen_mean_value": 0.005683189172218128,
+        "gemma_frequency": 0.04363636363636364,
+        "qwen_frequency": 0.04818181818181818,
+        "preferred_model": "Qwen 2.5",
+        "confidence": 0.08021263530027971,
+        "difference": 0.0008440256399832044
+      }
+    },
+    {
+      "feature": "okay",
+      "importance_score": 0.0819462743611102,
+      "importance_percentage": 0.0819462743611102,
+      "model_association": {
+        "gemma_mean_value": 0.012513761274403337,
+        "qwen_mean_value": 0.000589404759475859,
+        "gemma_frequency": 0.10272727272727272,
+        "qwen_frequency": 0.006363636363636364,
+        "preferred_model": "Gemma 3",
+        "confidence": 0.9100362831468503,
+        "difference": 0.011924356514927478
+      }
+    },
+    {
+      "feature": "cloth",
+      "importance_score": 0.08177822137853151,
+      "importance_percentage": 0.08177822137853151,
+      "model_association": {
+        "gemma_mean_value": 0.0036695829227050285,
+        "qwen_mean_value": 0.005880857978407152,
+        "gemma_frequency": 0.024545454545454544,
+        "qwen_frequency": 0.03090909090909091,
+        "preferred_model": "Qwen 2.5",
+        "confidence": 0.23153643675703112,
+        "difference": 0.0022112750557021234
+      }
+    },
+    {
+      "feature": "old man",
+      "importance_score": 0.08169159720908148,
+      "importance_percentage": 0.08169159720908148,
+      "model_association": {
+        "gemma_mean_value": 0.008547238266586024,
+        "qwen_mean_value": 0.0005300559818715109,
+        "gemma_frequency": 0.08363636363636363,
+        "qwen_frequency": 0.004545454545454545,
+        "preferred_model": "Gemma 3",
+        "confidence": 0.8832127796316439,
+        "difference": 0.008017182284714514
+      }
+    },
+    {
+      "feature": "use",
+      "importance_score": 0.08110897749834918,
+      "importance_percentage": 0.08110897749834918,
+      "model_association": {
+        "gemma_mean_value": 0.009120534038453323,
+        "qwen_mean_value": 0.01366609230540791,
+        "gemma_frequency": 0.13272727272727272,
+        "qwen_frequency": 0.20363636363636364,
+        "preferred_model": "Qwen 2.5",
+        "confidence": 0.1994836005277793,
+        "difference": 0.004545558266954587
+      }
+    },
+    {
+      "feature": "clean",
+      "importance_score": 0.08066098181984113,
+      "importance_percentage": 0.08066098181984113,
+      "model_association": {
+        "gemma_mean_value": 0.007012786999132845,
+        "qwen_mean_value": 0.005566883072486051,
+        "gemma_frequency": 0.07272727272727272,
+        "qwen_frequency": 0.06181818181818182,
+        "preferred_model": "Gemma 3",
+        "confidence": 0.11493973358720358,
+        "difference": 0.0014459039266467941
+      }
+    },
+    {
+      "feature": "significant",
+      "importance_score": 0.08064187923054765,
+      "importance_percentage": 0.08064187923054765,
+      "model_association": {
+        "gemma_mean_value": 0.006931679550134483,
+        "qwen_mean_value": 0.008725389763440384,
+        "gemma_frequency": 0.11272727272727273,
+        "qwen_frequency": 0.13818181818181818,
+        "preferred_model": "Qwen 2.5",
+        "confidence": 0.11456232181016998,
+        "difference": 0.0017937102133059012
+      }
+    },
+    {
+      "feature": "values",
+      "importance_score": 0.08056882323368517,
+      "importance_percentage": 0.08056882323368517,
+      "model_association": {
+        "gemma_mean_value": 0.007697216012400532,
+        "qwen_mean_value": 0.007686177388507396,
+        "gemma_frequency": 0.08272727272727273,
+        "qwen_frequency": 0.08,
+        "preferred_model": "Gemma 3",
+        "confidence": 0.0007175675486842918,
+        "difference": 1.1038623893135611e-05
+      }
+    },
+    {
+      "feature": "stylistic_formality",
+      "importance_score": 0.08042928742458288,
+      "importance_percentage": 0.08042928742458288,
+      "model_association": {
+        "gemma_mean_value": -0.0473902614791514,
+        "qwen_mean_value": 0.05756331741943272,
+        "gemma_frequency": 0.4509090909090909,
+        "qwen_frequency": 0.44363636363636366,
+        "preferred_model": "Qwen 2.5",
+        "confidence": 1.0,
+        "difference": 0.10495357889858412
+      }
+    },
+    {
+      "feature": "indicate",
+      "importance_score": 0.0802457903984798,
+      "importance_percentage": 0.0802457903984798,
+      "model_association": {
+        "gemma_mean_value": 0.00397689993180845,
+        "qwen_mean_value": 0.004663930661635331,
+        "gemma_frequency": 0.05545454545454546,
+        "qwen_frequency": 0.06454545454545454,
+        "preferred_model": "Qwen 2.5",
+        "confidence": 0.07950980202622707,
+        "difference": 0.0006870307298268812
+      }
+    },
+    {
+      "feature": "stated",
+      "importance_score": 0.07998921259218315,
+      "importance_percentage": 0.07998921259218315,
+      "model_association": {
+        "gemma_mean_value": 0.00687597257072658,
+        "qwen_mean_value": 0.002473680701461899,
+        "gemma_frequency": 0.09181818181818181,
+        "qwen_frequency": 0.03090909090909091,
+        "preferred_model": "Gemma 3",
+        "confidence": 0.4708508156510743,
+        "difference": 0.004402291869264681
+      }
+    },
+    {
+      "feature": "wipe",
+      "importance_score": 0.07871992691665666,
+      "importance_percentage": 0.07871992691665666,
+      "model_association": {
+        "gemma_mean_value": 0.0030645097146061763,
+        "qwen_mean_value": 0.002612071383229775,
+        "gemma_frequency": 0.022727272727272728,
+        "qwen_frequency": 0.022727272727272728,
+        "preferred_model": "Gemma 3",
+        "confidence": 0.07970261035271421,
+        "difference": 0.00045243833137640146
+      }
+    },
+    {
+      "feature": "cup",
+      "importance_score": 0.07841335446131716,
+      "importance_percentage": 0.07841335446131716,
+      "model_association": {
+        "gemma_mean_value": 0.003847869129249815,
+        "qwen_mean_value": 0.003910019096014351,
+        "gemma_frequency": 0.028181818181818183,
+        "qwen_frequency": 0.03,
+        "preferred_model": "Qwen 2.5",
+        "confidence": 0.008011196469954218,
+        "difference": 6.214996676453567e-05
+      }
+    },
+    {
+      "feature": "old",
+      "importance_score": 0.07822427483736333,
+      "importance_percentage": 0.07822427483736333,
+      "model_association": {
+        "gemma_mean_value": 0.012268820592942787,
+        "qwen_mean_value": 0.007246660174867727,
+        "gemma_frequency": 0.14545454545454545,
+        "qwen_frequency": 0.08272727272727273,
+        "preferred_model": "Gemma 3",
+        "confidence": 0.2573423877088787,
+        "difference": 0.005022160418075059
+      }
+    },
+    {
+      "feature": "man",
+      "importance_score": 0.07780553569819228,
+      "importance_percentage": 0.07780553569819228,
+      "model_association": {
+        "gemma_mean_value": 0.00980528537253963,
+        "qwen_mean_value": 0.0033473372839123642,
+        "gemma_frequency": 0.1009090909090909,
+        "qwen_frequency": 0.03,
+        "preferred_model": "Gemma 3",
+        "confidence": 0.49100078800324515,
+        "difference": 0.006457948088627265
+      }
+    },
+    {
+      "feature": "patterns",
+      "importance_score": 0.0778046879785708,
+      "importance_percentage": 0.0778046879785708,
+      "model_association": {
+        "gemma_mean_value": 0.007910507159305769,
+        "qwen_mean_value": 0.007856752685372352,
+        "gemma_frequency": 0.11545454545454545,
+        "qwen_frequency": 0.11818181818181818,
+        "preferred_model": "Gemma 3",
+        "confidence": 0.003409246404444842,
+        "difference": 5.3754473933416425e-05
+      }
+    },
+    {
+      "feature": "lexical_word_count",
+      "importance_score": 0.07773494697461716,
+      "importance_percentage": 0.07773494697461716,
+      "model_association": {
+        "gemma_mean_value": 0.013504022313254779,
+        "qwen_mean_value": 0.019863532453418823,
+        "gemma_frequency": 0.49818181818181817,
+        "qwen_frequency": 0.5018181818181818,
+        "preferred_model": "Qwen 2.5",
+        "confidence": 0.19058963668850287,
+        "difference": 0.006359510140164044
+      }
+    },
+    {
+      "feature": "stubborn",
+      "importance_score": 0.07766051859454048,
+      "importance_percentage": 0.07766051859454048,
+      "model_association": {
+        "gemma_mean_value": 0.0030086125461868682,
+        "qwen_mean_value": 0.002045370108093454,
+        "gemma_frequency": 0.02909090909090909,
+        "qwen_frequency": 0.02,
+        "preferred_model": "Gemma 3",
+        "confidence": 0.1905907685056308,
+        "difference": 0.0009632424380934144
+      }
+    },
+    {
+      "feature": "seriously",
+      "importance_score": 0.07699791157721653,
+      "importance_percentage": 0.07699791157721653,
+      "model_association": {
+        "gemma_mean_value": 0.009160658204090559,
+        "qwen_mean_value": 0.000338762176107704,
+        "gemma_frequency": 0.09,
+        "qwen_frequency": 0.0036363636363636364,
+        "preferred_model": "Gemma 3",
+        "confidence": 0.9286772955508189,
+        "difference": 0.008821896027982855
+      }
+    },
+    {
+      "feature": "think",
+      "importance_score": 0.07664980574191092,
+      "importance_percentage": 0.07664980574191092,
+      "model_association": {
+        "gemma_mean_value": 0.020293339373967222,
+        "qwen_mean_value": 0.005392722256326655,
+        "gemma_frequency": 0.3327272727272727,
+        "qwen_frequency": 0.08636363636363636,
+        "preferred_model": "Gemma 3",
+        "confidence": 0.5801051687918919,
+        "difference": 0.014900617117640567
+      }
+    },
+    {
+      "feature": "trends",
+      "importance_score": 0.07655857391071026,
+      "importance_percentage": 0.07655857391071026,
+      "model_association": {
+        "gemma_mean_value": 0.003976712238059618,
+        "qwen_mean_value": 0.007108274154540368,
+        "gemma_frequency": 0.04909090909090909,
+        "qwen_frequency": 0.08727272727272728,
+        "preferred_model": "Qwen 2.5",
+        "confidence": 0.2825048047484559,
+        "difference": 0.0031315619164807495
+      }
+    },
+    {
+      "feature": "oh",
+      "importance_score": 0.07654811566137351,
+      "importance_percentage": 0.07654811566137351,
+      "model_association": {
+        "gemma_mean_value": 0.005238406543418754,
+        "qwen_mean_value": 0.005032033617052949,
+        "gemma_frequency": 0.053636363636363635,
+        "qwen_frequency": 0.04454545454545455,
+        "preferred_model": "Gemma 3",
+        "confidence": 0.02009387359658466,
+        "difference": 0.00020637292636580505
+      }
+    },
+    {
+      "feature": "ethical",
+      "importance_score": 0.07640224999575734,
+      "importance_percentage": 0.07640224999575734,
+      "model_association": {
+        "gemma_mean_value": 0.004569406804839454,
+        "qwen_mean_value": 0.007404577845459786,
+        "gemma_frequency": 0.034545454545454546,
+        "qwen_frequency": 0.04181818181818182,
+        "preferred_model": "Qwen 2.5",
+        "confidence": 0.23677757433482924,
+        "difference": 0.0028351710406203327
+      }
+    },
+    {
+      "feature": "rinse",
+      "importance_score": 0.07590259681875479,
+      "importance_percentage": 0.07590259681875479,
+      "model_association": {
+        "gemma_mean_value": 0.0030819116829927085,
+        "qwen_mean_value": 0.0026376569341987448,
+        "gemma_frequency": 0.022727272727272728,
+        "qwen_frequency": 0.02090909090909091,
+        "preferred_model": "Gemma 3",
+        "confidence": 0.07767277193924309,
+        "difference": 0.00044425474879396373
+      }
+    },
+    {
+      "feature": "ingredients",
+      "importance_score": 0.07581149807785727,
+      "importance_percentage": 0.07581149807785727,
+      "model_association": {
+        "gemma_mean_value": 0.0024753709910609848,
+        "qwen_mean_value": 0.004382560919040602,
+        "gemma_frequency": 0.02727272727272727,
+        "qwen_frequency": 0.038181818181818185,
+        "preferred_model": "Qwen 2.5",
+        "confidence": 0.278099863483679,
+        "difference": 0.0019071899279796173
+      }
+    },
+    {
+      "feature": "understanding",
+      "importance_score": 0.07563659922029058,
+      "importance_percentage": 0.07563659922029058,
+      "model_association": {
+        "gemma_mean_value": 0.008011310119382622,
+        "qwen_mean_value": 0.00974133526973726,
+        "gemma_frequency": 0.11272727272727273,
+        "qwen_frequency": 0.14636363636363636,
+        "preferred_model": "Qwen 2.5",
+        "confidence": 0.0974516818442689,
+        "difference": 0.001730025150354638
+      }
+    },
+    {
+      "feature": "represents",
+      "importance_score": 0.07545163824270315,
+      "importance_percentage": 0.07545163824270315,
+      "model_association": {
+        "gemma_mean_value": 0.004659858775864045,
+        "qwen_mean_value": 0.005581242163163491,
+        "gemma_frequency": 0.06636363636363636,
+        "qwen_frequency": 0.08181818181818182,
+        "preferred_model": "Qwen 2.5",
+        "confidence": 0.08996917350830616,
+        "difference": 0.0009213833872994456
+      }
+    },
+    {
+      "feature": "plot",
+      "importance_score": 0.07536554118718419,
+      "importance_percentage": 0.07536554118718419,
+      "model_association": {
+        "gemma_mean_value": 0.00605603339039821,
+        "qwen_mean_value": 0.009631627573706366,
+        "gemma_frequency": 0.04181818181818182,
+        "qwen_frequency": 0.05090909090909091,
+        "preferred_model": "Qwen 2.5",
+        "confidence": 0.2279239837914386,
+        "difference": 0.0035755941833081556
+      }
+    },
+    {
+      "feature": "represent",
+      "importance_score": 0.07507735205438758,
+      "importance_percentage": 0.07507735205438758,
+      "model_association": {
+        "gemma_mean_value": 0.00392769555430888,
+        "qwen_mean_value": 0.003589235780815527,
+        "gemma_frequency": 0.04909090909090909,
+        "qwen_frequency": 0.045454545454545456,
+        "preferred_model": "Gemma 3",
+        "confidence": 0.045026322365328844,
+        "difference": 0.0003384597734933533
+      }
+    },
+    {
+      "feature": "website",
+      "importance_score": 0.07500009586887071,
+      "importance_percentage": 0.07500009586887071,
+      "model_association": {
+        "gemma_mean_value": 0.011000397443288925,
+        "qwen_mean_value": 0.0017979152431821133,
+        "gemma_frequency": 0.1390909090909091,
+        "qwen_frequency": 0.022727272727272728,
+        "preferred_model": "Gemma 3",
+        "confidence": 0.7190387065503296,
+        "difference": 0.009202482200106811
+      }
+    },
+    {
+      "feature": "soap",
+      "importance_score": 0.07498887113642426,
+      "importance_percentage": 0.07498887113642426,
+      "model_association": {
+        "gemma_mean_value": 0.002306180071967215,
+        "qwen_mean_value": 0.003029260965288751,
+        "gemma_frequency": 0.017272727272727273,
+        "qwen_frequency": 0.02181818181818182,
+        "preferred_model": "Qwen 2.5",
+        "confidence": 0.1355241091172135,
+        "difference": 0.0007230808933215362
+      }
+    },
+    {
+      "feature": "add",
+      "importance_score": 0.07484419257498803,
+      "importance_percentage": 0.07484419257498803,
+      "model_association": {
+        "gemma_mean_value": 0.006512691790614613,
+        "qwen_mean_value": 0.00641392391663449,
+        "gemma_frequency": 0.07909090909090909,
+        "qwen_frequency": 0.07272727272727272,
+        "preferred_model": "Gemma 3",
+        "confidence": 0.0076406598770268385,
+        "difference": 9.876787398012312e-05
+      }
+    },
+    {
+      "feature": "human",
+      "importance_score": 0.07468630779792708,
+      "importance_percentage": 0.07468630779792708,
+      "model_association": {
+        "gemma_mean_value": 0.004426431921338734,
+        "qwen_mean_value": 0.009934315505604372,
+        "gemma_frequency": 0.04909090909090909,
+        "qwen_frequency": 0.1,
+        "preferred_model": "Qwen 2.5",
+        "confidence": 0.3835373898389125,
+        "difference": 0.0055078835842656375
+      }
+    },
+    {
+      "feature": "make",
+      "importance_score": 0.0746038426436182,
+      "importance_percentage": 0.0746038426436182,
+      "model_association": {
+        "gemma_mean_value": 0.005279196312667379,
+        "qwen_mean_value": 0.012785287418767995,
+        "gemma_frequency": 0.07636363636363637,
+        "qwen_frequency": 0.17272727272727273,
+        "preferred_model": "Qwen 2.5",
+        "confidence": 0.4155165028623929,
+        "difference": 0.0075060911061006165
+      }
+    },
+    {
+      "feature": "avoid",
+      "importance_score": 0.07452727662133124,
+      "importance_percentage": 0.07452727662133124,
+      "model_association": {
+        "gemma_mean_value": 0.005502754274635772,
+        "qwen_mean_value": 0.00535213000234552,
+        "gemma_frequency": 0.06363636363636363,
+        "qwen_frequency": 0.06181818181818182,
+        "preferred_model": "Gemma 3",
+        "confidence": 0.013876174857954391,
+        "difference": 0.00015062427229025222
+      }
+    },
+    {
+      "feature": "combine",
+      "importance_score": 0.0743154460102655,
+      "importance_percentage": 0.0743154460102655,
+      "model_association": {
+        "gemma_mean_value": 0.0014290136179618178,
+        "qwen_mean_value": 0.0014898742922595221,
+        "gemma_frequency": 0.015454545454545455,
+        "qwen_frequency": 0.015454545454545455,
+        "preferred_model": "Qwen 2.5",
+        "confidence": 0.020850637698207882,
+        "difference": 6.08606742977043e-05
+      }
+    },
+    {
+      "feature": "visit website",
+      "importance_score": 0.07418832488049387,
+      "importance_percentage": 0.07418832488049387,
+      "model_association": {
+        "gemma_mean_value": 0.006424465638670919,
+        "qwen_mean_value": 0.00028299526241699647,
+        "gemma_frequency": 0.06636363636363636,
+        "qwen_frequency": 0.0027272727272727275,
+        "preferred_model": "Gemma 3",
+        "confidence": 0.9156177675605695,
+        "difference": 0.0061414703762539226
+      }
+    },
+    {
+      "feature": "categories",
+      "importance_score": 0.07402144488679642,
+      "importance_percentage": 0.07402144488679642,
+      "model_association": {
+        "gemma_mean_value": 0.0055596711689839895,
+        "qwen_mean_value": 0.0087331585047487,
+        "gemma_frequency": 0.045454545454545456,
+        "qwen_frequency": 0.06818181818181818,
+        "preferred_model": "Qwen 2.5",
+        "confidence": 0.2220335236763462,
+        "difference": 0.003173487335764711
+      }
+    },
+    {
+      "feature": "moral",
+      "importance_score": 0.07346357162557425,
+      "importance_percentage": 0.07346357162557425,
+      "model_association": {
+        "gemma_mean_value": 0.005746934274105245,
+        "qwen_mean_value": 0.009254275508791012,
+        "gemma_frequency": 0.03090909090909091,
+        "qwen_frequency": 0.045454545454545456,
+        "preferred_model": "Qwen 2.5",
+        "confidence": 0.2338038921823951,
+        "difference": 0.003507341234685767
+      }
+    },
+    {
+      "feature": "dust",
+      "importance_score": 0.0733059351747096,
+      "importance_percentage": 0.0733059351747096,
+      "model_association": {
+        "gemma_mean_value": 0.007502804675647187,
+        "qwen_mean_value": 0.0031874185052772654,
+        "gemma_frequency": 0.07090909090909091,
+        "qwen_frequency": 0.025454545454545455,
+        "preferred_model": "Gemma 3",
+        "confidence": 0.40367596609865564,
+        "difference": 0.004315386170369921
+      }
+    },
+    {
+      "feature": "visual",
+      "importance_score": 0.07322056652470896,
+      "importance_percentage": 0.07322056652470896,
+      "model_association": {
+        "gemma_mean_value": 0.005704450283911471,
+        "qwen_mean_value": 0.0051820215343367625,
+        "gemma_frequency": 0.07454545454545454,
+        "qwen_frequency": 0.07181818181818182,
+        "preferred_model": "Gemma 3",
+        "confidence": 0.04798880282765238,
+        "difference": 0.0005224287495747089
+      }
+    },
+    {
+      "feature": "introducing",
+      "importance_score": 0.07302765758951237,
+      "importance_percentage": 0.07302765758951237,
+      "model_association": {
+        "gemma_mean_value": 0.006070545623532755,
+        "qwen_mean_value": 0.0038829608513828973,
+        "gemma_frequency": 0.07181818181818182,
+        "qwen_frequency": 0.046363636363636364,
+        "preferred_model": "Gemma 3",
+        "confidence": 0.21978031336623968,
+        "difference": 0.0021875847721498577
+      }
+    },
+    {
+      "feature": "grime",
+      "importance_score": 0.07302043519006467,
+      "importance_percentage": 0.07302043519006467,
+      "model_association": {
+        "gemma_mean_value": 0.0019549669773954582,
+        "qwen_mean_value": 0.0016024540121315118,
+        "gemma_frequency": 0.019090909090909092,
+        "qwen_frequency": 0.014545454545454545,
+        "preferred_model": "Gemma 3",
+        "confidence": 0.09909228238708402,
+        "difference": 0.0003525129652639464
+      }
+    },
+    {
+      "feature": "fun",
+      "importance_score": 0.07299170673205599,
+      "importance_percentage": 0.07299170673205599,
+      "model_association": {
+        "gemma_mean_value": 0.0037444378110417856,
+        "qwen_mean_value": 0.004284349728821775,
+        "gemma_frequency": 0.04090909090909091,
+        "qwen_frequency": 0.04363636363636364,
+        "preferred_model": "Qwen 2.5",
+        "confidence": 0.06724700524198512,
+        "difference": 0.0005399119177799897
+      }
+    },
+    {
+      "feature": "syntactic_verb_ratio",
+      "importance_score": 0.07294451876335512,
+      "importance_percentage": 0.07294451876335512,
+      "model_association": {
+        "gemma_mean_value": -0.04275848864747621,
+        "qwen_mean_value": 0.053553289715601915,
+        "gemma_frequency": 0.48454545454545456,
+        "qwen_frequency": 0.5054545454545455,
+        "preferred_model": "Qwen 2.5",
+        "confidence": 1.0,
+        "difference": 0.09631177836307812
+      }
+    },
+    {
+      "feature": "increased",
+      "importance_score": 0.07272296200624334,
+      "importance_percentage": 0.07272296200624334,
+      "model_association": {
+        "gemma_mean_value": 0.004701054640483573,
+        "qwen_mean_value": 0.003476893254793333,
+        "gemma_frequency": 0.056363636363636366,
+        "qwen_frequency": 0.038181818181818185,
+        "preferred_model": "Gemma 3",
+        "confidence": 0.14969053378259384,
+        "difference": 0.0012241613856902398
+      }
+    },
+    {
+      "feature": "designed",
+      "importance_score": 0.07266798151840806,
+      "importance_percentage": 0.07266798151840806,
+      "model_association": {
+        "gemma_mean_value": 0.00675773368783564,
+        "qwen_mean_value": 0.01049305326010901,
+        "gemma_frequency": 0.10272727272727272,
+        "qwen_frequency": 0.1572727272727273,
+        "preferred_model": "Qwen 2.5",
+        "confidence": 0.21653038690611243,
+        "difference": 0.0037353195722733693
+      }
+    },
+    {
+      "feature": "remove",
+      "importance_score": 0.07237877362529174,
+      "importance_percentage": 0.07237877362529174,
+      "model_association": {
+        "gemma_mean_value": 0.0027369025789376208,
+        "qwen_mean_value": 0.003363950479744574,
+        "gemma_frequency": 0.02727272727272727,
+        "qwen_frequency": 0.03090909090909091,
+        "preferred_model": "Qwen 2.5",
+        "confidence": 0.10278036444667261,
+        "difference": 0.0006270479008069533
+      }
+    },
+    {
+      "feature": "honestly",
+      "importance_score": 0.07236528579001503,
+      "importance_percentage": 0.07236528579001503,
+      "model_association": {
+        "gemma_mean_value": 0.00938650616878045,
+        "qwen_mean_value": 9.283139265951865e-05,
+        "gemma_frequency": 0.08818181818181818,
+        "qwen_frequency": 0.0009090909090909091,
+        "preferred_model": "Gemma 3",
+        "confidence": 0.9804139493803579,
+        "difference": 0.009293674776120931
+      }
+    },
+    {
+      "feature": "philosophical",
+      "importance_score": 0.07223155732089936,
+      "importance_percentage": 0.07223155732089936,
+      "model_association": {
+        "gemma_mean_value": 0.001306245520600638,
+        "qwen_mean_value": 0.003919781217583542,
+        "gemma_frequency": 0.011818181818181818,
+        "qwen_frequency": 0.034545454545454546,
+        "preferred_model": "Qwen 2.5",
+        "confidence": 0.5000999474202834,
+        "difference": 0.002613535696982904
+      }
+    },
+    {
+      "feature": "ensuring",
+      "importance_score": 0.07218744614101817,
+      "importance_percentage": 0.07218744614101817,
+      "model_association": {
+        "gemma_mean_value": 0.0050977395505914635,
+        "qwen_mean_value": 0.016802739999710308,
+        "gemma_frequency": 0.09363636363636364,
+        "qwen_frequency": 0.3054545454545455,
+        "preferred_model": "Qwen 2.5",
+        "confidence": 0.5344632030652297,
+        "difference": 0.011705000449118845
+      }
+    },
+    {
+      "feature": "today",
+      "importance_score": 0.07211452242314005,
+      "importance_percentage": 0.07211452242314005,
+      "model_association": {
+        "gemma_mean_value": 0.011384741069360658,
+        "qwen_mean_value": 0.00988000089216692,
+        "gemma_frequency": 0.18363636363636363,
+        "qwen_frequency": 0.15272727272727274,
+        "preferred_model": "Gemma 3",
+        "confidence": 0.07076221192413865,
+        "difference": 0.001504740177193738
+      }
+    },
+    {
+      "feature": "enjoy",
+      "importance_score": 0.0720838472436935,
+      "importance_percentage": 0.0720838472436935,
+      "model_association": {
+        "gemma_mean_value": 0.004738255459845735,
+        "qwen_mean_value": 0.006272342611510508,
+        "gemma_frequency": 0.060909090909090906,
+        "qwen_frequency": 0.07454545454545454,
+        "preferred_model": "Qwen 2.5",
+        "confidence": 0.13932823101187006,
+        "difference": 0.0015340871516647736
+      }
+    },
+    {
+      "feature": "local",
+      "importance_score": 0.07183354505497531,
+      "importance_percentage": 0.07183354505497531,
+      "model_association": {
+        "gemma_mean_value": 0.00737293493073456,
+        "qwen_mean_value": 0.009212536023112467,
+        "gemma_frequency": 0.08363636363636363,
+        "qwen_frequency": 0.09454545454545454,
+        "preferred_model": "Qwen 2.5",
+        "confidence": 0.11091642181865259,
+        "difference": 0.0018396010923779071
+      }
+    },
+    {
+      "feature": "wasnt",
+      "importance_score": 0.07135639678778115,
+      "importance_percentage": 0.07135639678778115,
+      "model_association": {
+        "gemma_mean_value": 0.012325577753631368,
+        "qwen_mean_value": 0.0024187290165496177,
+        "gemma_frequency": 0.10636363636363637,
+        "qwen_frequency": 0.026363636363636363,
+        "preferred_model": "Gemma 3",
+        "confidence": 0.6719101068296712,
+        "difference": 0.009906848737081751
+      }
+    },
+    {
+      "feature": "water",
+      "importance_score": 0.07112574919975391,
+      "importance_percentage": 0.07112574919975391,
+      "model_association": {
+        "gemma_mean_value": 0.014966078379007406,
+        "qwen_mean_value": 0.014859548978781747,
+        "gemma_frequency": 0.11818181818181818,
+        "qwen_frequency": 0.11363636363636363,
+        "preferred_model": "Gemma 3",
+        "confidence": 0.003571740468280154,
+        "difference": 0.00010652940022565921
+      }
+    },
+    {
+      "feature": "press conference",
+      "importance_score": 0.07111868822390106,
+      "importance_percentage": 0.07111868822390106,
+      "model_association": {
+        "gemma_mean_value": 0.0043621131607766124,
+        "qwen_mean_value": 0.00221233434524876,
+        "gemma_frequency": 0.04909090909090909,
+        "qwen_frequency": 0.024545454545454544,
+        "preferred_model": "Gemma 3",
+        "confidence": 0.32699003430442114,
+        "difference": 0.0021497788155278525
+      }
+    },
+    {
+      "feature": "visualization",
+      "importance_score": 0.07080694069966516,
+      "importance_percentage": 0.07080694069966516,
+      "model_association": {
+        "gemma_mean_value": 0.0034958426370305593,
+        "qwen_mean_value": 0.004640493502139511,
+        "gemma_frequency": 0.045454545454545456,
+        "qwen_frequency": 0.05909090909090909,
+        "preferred_model": "Qwen 2.5",
+        "confidence": 0.14068382199677773,
+        "difference": 0.001144650865108952
+      }
+    },
+    {
+      "feature": "brush",
+      "importance_score": 0.07055173034563801,
+      "importance_percentage": 0.07055173034563801,
+      "model_association": {
+        "gemma_mean_value": 0.003025478488669656,
+        "qwen_mean_value": 0.002793783037619671,
+        "gemma_frequency": 0.01818181818181818,
+        "qwen_frequency": 0.01818181818181818,
+        "preferred_model": "Gemma 3",
+        "confidence": 0.039815266937783804,
+        "difference": 0.00023169545104998477
+      }
+    },
+    {
+      "feature": "reveal",
+      "importance_score": 0.07051460709006635,
+      "importance_percentage": 0.07051460709006635,
+      "model_association": {
+        "gemma_mean_value": 0.00493033855996749,
+        "qwen_mean_value": 0.0028575940574782533,
+        "gemma_frequency": 0.06272727272727273,
+        "qwen_frequency": 0.035454545454545454,
+        "preferred_model": "Gemma 3",
+        "confidence": 0.26614823269606663,
+        "difference": 0.002072744502489237
+      }
+    },
+    {
+      "feature": "experience",
+      "importance_score": 0.07048254040203844,
+      "importance_percentage": 0.07048254040203844,
+      "model_association": {
+        "gemma_mean_value": 0.008905875831859388,
+        "qwen_mean_value": 0.012061665839770542,
+        "gemma_frequency": 0.12,
+        "qwen_frequency": 0.15818181818181817,
+        "preferred_model": "Qwen 2.5",
+        "confidence": 0.1505083455816419,
+        "difference": 0.0031557900079111547
+      }
+    },
+    {
+      "feature": "chipped",
+      "importance_score": 0.07047652145493875,
+      "importance_percentage": 0.07047652145493875,
+      "model_association": {
+        "gemma_mean_value": 0.007179424985598181,
+        "qwen_mean_value": 0.0001770195291190576,
+        "gemma_frequency": 0.07090909090909091,
+        "qwen_frequency": 0.0018181818181818182,
+        "preferred_model": "Gemma 3",
+        "confidence": 0.9518736180868588,
+        "difference": 0.007002405456479124
+      }
+    },
+    {
+      "feature": "information",
+      "importance_score": 0.07044263865756215,
+      "importance_percentage": 0.07044263865756215,
+      "model_association": {
+        "gemma_mean_value": 0.006704917213147874,
+        "qwen_mean_value": 0.008611383237573562,
+        "gemma_frequency": 0.09090909090909091,
+        "qwen_frequency": 0.11272727272727273,
+        "preferred_model": "Qwen 2.5",
+        "confidence": 0.1244730103434272,
+        "difference": 0.001906466024425688
+      }
+    },
+    {
+      "feature": "soapy",
+      "importance_score": 0.07044008177457617,
+      "importance_percentage": 0.07044008177457617,
+      "model_association": {
+        "gemma_mean_value": 0.0016825632802924795,
+        "qwen_mean_value": 0.0013656369580120203,
+        "gemma_frequency": 0.014545454545454545,
+        "qwen_frequency": 0.01090909090909091,
+        "preferred_model": "Gemma 3",
+        "confidence": 0.10397162177795219,
+        "difference": 0.0003169263222804592
+      }
+    },
+    {
+      "feature": "store",
+      "importance_score": 0.07032644257135842,
+      "importance_percentage": 0.07032644257135842,
+      "model_association": {
+        "gemma_mean_value": 0.004926550166310144,
+        "qwen_mean_value": 0.004088884755792154,
+        "gemma_frequency": 0.05545454545454546,
+        "qwen_frequency": 0.04909090909090909,
+        "preferred_model": "Gemma 3",
+        "confidence": 0.09291458678985792,
+        "difference": 0.0008376654105179899
+      }
+    },
+    {
+      "feature": "cups",
+      "importance_score": 0.07020161904165162,
+      "importance_percentage": 0.07020161904165162,
+      "model_association": {
+        "gemma_mean_value": 0.0013393810757029742,
+        "qwen_mean_value": 0.001701396810371645,
+        "gemma_frequency": 0.012727272727272728,
+        "qwen_frequency": 0.015454545454545455,
+        "preferred_model": "Qwen 2.5",
+        "confidence": 0.11905365937003762,
+        "difference": 0.00036201573466867077
+      }
+    },
+    {
+      "feature": "stylistic_contraction_ratio",
+      "importance_score": 0.07011409022356296,
+      "importance_percentage": 0.07011409022356296,
+      "model_association": {
+        "gemma_mean_value": 0.06543746371069163,
+        "qwen_mean_value": -0.15269199096619482,
+        "gemma_frequency": 0.4581818181818182,
+        "qwen_frequency": 0.30727272727272725,
+        "preferred_model": "Gemma 3",
+        "confidence": 1.0,
+        "difference": 0.21812945467688644
+      }
+    },
+    {
+      "feature": "challenges",
+      "importance_score": 0.0700578537073129,
+      "importance_percentage": 0.0700578537073129,
+      "model_association": {
+        "gemma_mean_value": 0.0033153617995174424,
+        "qwen_mean_value": 0.007394705026038659,
+        "gemma_frequency": 0.04363636363636364,
+        "qwen_frequency": 0.09272727272727273,
+        "preferred_model": "Qwen 2.5",
+        "confidence": 0.38088868099190437,
+        "difference": 0.004079343226521216
+      }
+    },
+    {
+      "feature": "visit",
+      "importance_score": 0.06981720057833735,
+      "importance_percentage": 0.06981720057833735,
+      "model_association": {
+        "gemma_mean_value": 0.007341963281025413,
+        "qwen_mean_value": 0.002334512237023177,
+        "gemma_frequency": 0.08454545454545455,
+        "qwen_frequency": 0.022727272727272728,
+        "preferred_model": "Gemma 3",
+        "confidence": 0.517487078292331,
+        "difference": 0.0050074510440022355
+      }
+    },
+    {
+      "feature": "axis",
+      "importance_score": 0.0695336028353412,
+      "importance_percentage": 0.0695336028353412,
+      "model_association": {
+        "gemma_mean_value": 0.003374570191224255,
+        "qwen_mean_value": 0.0053671200137475365,
+        "gemma_frequency": 0.028181818181818183,
+        "qwen_frequency": 0.03909090909090909,
+        "preferred_model": "Qwen 2.5",
+        "confidence": 0.22793644887919146,
+        "difference": 0.0019925498225232814
+      }
+    },
+    {
+      "feature": "user",
+      "importance_score": 0.06915171227509856,
+      "importance_percentage": 0.06915171227509856,
+      "model_association": {
+        "gemma_mean_value": 0.005492717987398311,
+        "qwen_mean_value": 0.009738651545110461,
+        "gemma_frequency": 0.05090909090909091,
+        "qwen_frequency": 0.08,
+        "preferred_model": "Qwen 2.5",
+        "confidence": 0.27876242833252296,
+        "difference": 0.00424593355771215
+      }
+    },
+    {
+      "feature": "start",
+      "importance_score": 0.06900898867718515,
+      "importance_percentage": 0.06900898867718515,
+      "model_association": {
+        "gemma_mean_value": 0.007228866727249127,
+        "qwen_mean_value": 0.014008449046870994,
+        "gemma_frequency": 0.12,
+        "qwen_frequency": 0.2309090909090909,
+        "preferred_model": "Qwen 2.5",
+        "confidence": 0.31922971771618586,
+        "difference": 0.006779582319621867
+      }
+    }
+  ],
+  "named_lexical_features": [
+    {
+      "feature": "lexical_avg_sent_len",
+      "importance_score": 0.12085913122056922,
+      "model_association": {
+        "gemma_mean_value": -0.5946238138984472,
+        "qwen_mean_value": 0.5744069719576254,
+        "gemma_frequency": 0.18181818181818182,
+        "qwen_frequency": 0.7872727272727272,
+        "preferred_model": "Qwen 2.5",
+        "confidence": 1.0,
+        "difference": 1.1690307858560725
+      }
+    },
+    {
+      "feature": "lexical_avg_word_len",
+      "importance_score": 0.11074688791300619,
+      "model_association": {
+        "gemma_mean_value": 0.028823758956696772,
+        "qwen_mean_value": -0.0798505867242112,
+        "gemma_frequency": 0.5209090909090909,
+        "qwen_frequency": 0.49272727272727274,
+        "preferred_model": "Gemma 3",
+        "confidence": 1.0,
+        "difference": 0.10867434568090797
+      }
+    },
+    {
+      "feature": "lexical_char_count",
+      "importance_score": 0.1036174432835859,
+      "model_association": {
+        "gemma_mean_value": 0.16666125528158124,
+        "qwen_mean_value": -0.16384123970383016,
+        "gemma_frequency": 0.5218181818181818,
+        "qwen_frequency": 0.4390909090909091,
+        "preferred_model": "Gemma 3",
+        "confidence": 1.0,
+        "difference": 0.3305024949854114
+      }
+    },
+    {
+      "feature": "lexical_word_count",
+      "importance_score": 0.07773494697461716,
+      "model_association": {
+        "gemma_mean_value": 0.013504022313254779,
+        "qwen_mean_value": 0.019863532453418823,
+        "gemma_frequency": 0.49818181818181817,
+        "qwen_frequency": 0.5018181818181818,
+        "preferred_model": "Qwen 2.5",
+        "confidence": 0.19058963668850287,
+        "difference": 0.006359510140164044
+      }
+    }
+  ],
+  "named_syntactic_features": [
+    {
+      "feature": "syntactic_noun_ratio",
+      "importance_score": 0.12181294568956097,
+      "model_association": {
+        "gemma_mean_value": 0.35513544687988297,
+        "qwen_mean_value": -0.3142107536675786,
+        "gemma_frequency": 0.6036363636363636,
+        "qwen_frequency": 0.37545454545454543,
+        "preferred_model": "Gemma 3",
+        "confidence": 1.0,
+        "difference": 0.6693462005474615
+      }
+    },
+    {
+      "feature": "syntactic_complexity",
+      "importance_score": 0.11846430334507413,
+      "model_association": {
+        "gemma_mean_value": -0.5531394375547843,
+        "qwen_mean_value": 0.5238047127219236,
+        "gemma_frequency": 0.3409090909090909,
+        "qwen_frequency": 0.8645454545454545,
+        "preferred_model": "Qwen 2.5",
+        "confidence": 1.0,
+        "difference": 1.076944150276708
+      }
+    },
+    {
+      "feature": "syntactic_punct_density",
+      "importance_score": 0.1162941501377151,
+      "model_association": {
+        "gemma_mean_value": 0.6120914716668895,
+        "qwen_mean_value": -0.6273308966111472,
+        "gemma_frequency": 0.7245454545454545,
+        "qwen_frequency": 0.09545454545454546,
+        "preferred_model": "Gemma 3",
+        "confidence": 1.0,
+        "difference": 1.2394223682780368
+      }
+    },
+    {
+      "feature": "syntactic_adv_ratio",
+      "importance_score": 0.09649914948872197,
+      "model_association": {
+        "gemma_mean_value": 0.1297014539366634,
+        "qwen_mean_value": -0.16570652892394,
+        "gemma_frequency": 0.5145454545454545,
+        "qwen_frequency": 0.38636363636363635,
+        "preferred_model": "Gemma 3",
+        "confidence": 1.0,
+        "difference": 0.29540798286060344
+      }
+    },
+    {
+      "feature": "syntactic_adj_ratio",
+      "importance_score": 0.08912939733677157,
+      "model_association": {
+        "gemma_mean_value": 0.07400808209490797,
+        "qwen_mean_value": -0.09593318676795438,
+        "gemma_frequency": 0.5363636363636364,
+        "qwen_frequency": 0.45636363636363636,
+        "preferred_model": "Gemma 3",
+        "confidence": 1.0,
+        "difference": 0.16994126886286237
+      }
+    },
+    {
+      "feature": "syntactic_verb_ratio",
+      "importance_score": 0.07294451876335512,
+      "model_association": {
+        "gemma_mean_value": -0.04275848864747621,
+        "qwen_mean_value": 0.053553289715601915,
+        "gemma_frequency": 0.48454545454545456,
+        "qwen_frequency": 0.5054545454545455,
+        "preferred_model": "Qwen 2.5",
+        "confidence": 1.0,
+        "difference": 0.09631177836307812
+      }
+    }
+  ],
+  "named_stylistic_features": [
+    {
+      "feature": "stylistic_exclaim_ratio",
+      "importance_score": 0.1174514730681422,
+      "model_association": {
+        "gemma_mean_value": 0.23295214989367125,
+        "qwen_mean_value": -0.17087371300510262,
+        "gemma_frequency": 0.48363636363636364,
+        "qwen_frequency": 0.21636363636363637,
+        "preferred_model": "Gemma 3",
+        "confidence": 1.0,
+        "difference": 0.40382586289877387
+      }
+    },
+    {
+      "feature": "stylistic_capital_ratio",
+      "importance_score": 0.11384847453930928,
+      "model_association": {
+        "gemma_mean_value": 0.569052396754851,
+        "qwen_mean_value": -0.5349430965210262,
+        "gemma_frequency": 0.7118181818181818,
+        "qwen_frequency": 0.19272727272727272,
+        "preferred_model": "Gemma 3",
+        "confidence": 1.0,
+        "difference": 1.1039954932758773
+      }
+    },
+    {
+      "feature": "stylistic_question_ratio",
+      "importance_score": 0.09098031392559787,
+      "model_association": {
+        "gemma_mean_value": 0.32995498027908987,
+        "qwen_mean_value": -0.28188563987027443,
+        "gemma_frequency": 0.5345454545454545,
+        "qwen_frequency": 0.15636363636363637,
+        "preferred_model": "Gemma 3",
+        "confidence": 1.0,
+        "difference": 0.6118406201493642
+      }
+    },
+    {
+      "feature": "stylistic_formality",
+      "importance_score": 0.08042928742458288,
+      "model_association": {
+        "gemma_mean_value": -0.0473902614791514,
+        "qwen_mean_value": 0.05756331741943272,
+        "gemma_frequency": 0.4509090909090909,
+        "qwen_frequency": 0.44363636363636366,
+        "preferred_model": "Qwen 2.5",
+        "confidence": 1.0,
+        "difference": 0.10495357889858412
+      }
+    },
+    {
+      "feature": "stylistic_contraction_ratio",
+      "importance_score": 0.07011409022356296,
+      "model_association": {
+        "gemma_mean_value": 0.06543746371069163,
+        "qwen_mean_value": -0.15269199096619482,
+        "gemma_frequency": 0.4581818181818182,
+        "qwen_frequency": 0.30727272727272725,
+        "preferred_model": "Gemma 3",
+        "confidence": 1.0,
+        "difference": 0.21812945467688644
+      }
+    }
+  ]
+}

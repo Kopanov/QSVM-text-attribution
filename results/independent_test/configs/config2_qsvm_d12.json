@@ -1,0 +1,27 @@
+{
+  "config": 2,
+  "name": "QSVM dim=12, C=1, ZZ reps=2, train 3480",
+  "dim": 12,
+  "C": 1.0,
+  "feature_map": "ZZFeatureMap",
+  "reps": 2,
+  "train_n": 3480,
+  "n_test": 1000,
+  "test_accuracy": 0.884,
+  "per_class": {
+    "Gemma 3": {
+      "precision": 0.9120171673819742,
+      "recall": 0.85,
+      "f1": 0.8799171842650103
+    },
+    "Qwen 2.5": {
+      "precision": 0.8595505617977528,
+      "recall": 0.918,
+      "f1": 0.8878143133462283
+    }
+  },
+  "seconds": 297.60564255714417,
+  "kernel": "fidelity_statevector_exact",
+  "frozen": true,
+  "corpus": "expB_testset/test_wide.csv"
+}

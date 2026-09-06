@@ -1,0 +1,63 @@
+{
+  "n_test_texts": 1000,
+  "n_prompts": 500,
+  "frozen": true,
+  "configs": [
+    {
+      "config": 1,
+      "name": "QSVM dim=14, C=1, ZZ reps=2, train 3480",
+      "test_accuracy": 0.873,
+      "test_accuracy_pct": 87.3,
+      "n_test": 1000,
+      "seconds": 943.4740192890167
+    },
+    {
+      "config": 2,
+      "name": "QSVM dim=12, C=1, ZZ reps=2, train 3480",
+      "test_accuracy": 0.884,
+      "test_accuracy_pct": 88.4,
+      "n_test": 1000,
+      "seconds": 297.60564255714417
+    },
+    {
+      "config": 3,
+      "name": "QSVM dim=8, C=1, ZZ reps=2, train 600 (paper sweet-spot split)",
+      "test_accuracy": 0.798,
+      "test_accuracy_pct": 79.8,
+      "n_test": 1000,
+      "seconds": 12.161352634429932
+    },
+    {
+      "config": 4,
+      "name": "Experiment 2.3 QSVM, 14 MI stylometric features, C=1, ZZ reps=2",
+      "test_accuracy": 0.768,
+      "test_accuracy_pct": 76.8,
+      "n_test": 1000,
+      "seconds": 881.3157086372375
+    },
+    {
+      "config": 5,
+      "name": "Experiment 2.4 classical LinearSVC, 14 MI stylometric features",
+      "test_accuracy": 0.906,
+      "test_accuracy_pct": 90.6,
+      "n_test": 1000,
+      "seconds": 0.04868650436401367
+    },
+    {
+      "config": 6,
+      "name": "PCA+CSVM dim=14 RBF C=100 (best Experiment A)",
+      "test_accuracy": 0.956,
+      "test_accuracy_pct": 95.6,
+      "n_test": 1000,
+      "seconds": 5.8016345500946045
+    },
+    {
+      "config": 7,
+      "name": "Global classical LinearSVC, full 3018-d",
+      "test_accuracy": 0.977,
+      "test_accuracy_pct": 97.7,
+      "n_test": 1000,
+      "seconds": 0.7509956359863281
+    }
+  ]
+}

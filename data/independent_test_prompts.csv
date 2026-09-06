@@ -1,0 +1,501 @@
+prompt_id;category;prompt
+B0001;Creative storytelling;Write a 200-250 word scene in which a ferry captain realises the fog is following one passenger, not the weather.
+B0002;Creative storytelling;Create a 200-250 word story about a museum night guard who finds tomorrow's newspaper already in a display case.
+B0003;Creative storytelling;Compose a 200-250 word excerpt in which a beekeeper discovers the hives spelling words in honeycomb.
+B0004;Creative storytelling;Write a 200-250 word scene where a literary translator begins hearing a language that does not yet exist.
+B0005;Creative storytelling;Create a 200-250 word alpine-hut story in which the radio plays a private conversation from forty years ahead.
+B0006;Creative storytelling;Write a 200-250 word scene about a violin restorer who finds a string that only sounds at dusk.
+B0007;Creative storytelling;Compose a 200-250 word story in which a commuter's pocket map redraws itself every time it is folded.
+B0008;Creative storytelling;Write a 200-250 word scene where a pastry chef realises the croissants remember who last ate them.
+B0009;Creative storytelling;Create a 200-250 word underwater excerpt about a harbour diver who finds a door standing in the silt.
+B0010;Creative storytelling;Write a 200-250 word story in which a postal worker must deliver a letter addressed only to a childhood nickname.
+B0011;Creative storytelling;Compose a 200-250 word midnight greenhouse scene where the plants have swapped pots.
+B0012;Creative storytelling;Write a 200-250 word story about a park chess hustler playing an opponent who casts no shadow.
+B0013;Creative storytelling;Create a 200-250 word lighthouse scene in which the lens shows a coastline that is on no chart.
+B0014;Creative storytelling;Write a 200-250 word excerpt about a tailor stitching a coat that fits whoever the wearer most misses.
+B0015;Creative storytelling;Compose a 200-250 word story set in an ice hotel whose walls have migrated overnight.
+B0016;Creative storytelling;Write a 200-250 word scene in which a street accordion plays only other people's unsaid secrets.
+B0017;Creative storytelling;Create a 200-250 word archive story about a box labelled do not inventory until Thursday that arrives on a Monday.
+B0018;Creative storytelling;Write a 200-250 word river-guide scene in which the canoe refuses one particular tributary.
+B0019;Creative storytelling;Compose a 200-250 word story about a clockmaker's apprentice inheriting a watch that skips hours of grief.
+B0020;Creative storytelling;Write a 200-250 word rooftop scene where a new constellation appears to spell a living person's name.
+B0021;Creative storytelling;Create a 200-250 word blacksmith excerpt in which the hammer rings in Morse when a stranger enters.
+B0022;Creative storytelling;Write a 200-250 word boarding-house scene about a cook whose stew reveals a guest's unfinished errand.
+B0023;Creative storytelling;Compose a 200-250 word backstage story in which the understudy is already on stage and also waiting in the wings.
+B0024;Creative storytelling;Write a 200-250 word scene about a tea merchant blending a tin that will steep only in rainwater.
+B0025;Creative storytelling;Create a 200-250 word glaciology excerpt in which meltwater seems to address the researcher by name.
+B0026;Creative storytelling;Write a 200-250 word story about a bicycle courier whose bag grows heavier with each unread message.
+B0027;Creative storytelling;Compose a 200-250 word scene where a stained-glass window depicts a street that will be built next year.
+B0028;Creative storytelling;Write a 200-250 word night-library story in which the books reshelve the librarian instead.
+B0029;Creative storytelling;Create a 200-250 word salt-mine excerpt about a worker who finds a perfectly dry bird in the dark.
+B0030;Creative storytelling;Write a 200-250 word wedding scene in which the photographs show a guest who was neither invited nor present.
+B0031;Creative storytelling;Compose a 200-250 word tide-pool story where a naturalist is addressed by a childhood name no colleague knows.
+B0032;Creative storytelling;Write a 200-250 word tram scene about tickets that punch destinations for neighbourhoods not yet built.
+B0033;Creative storytelling;Create a 200-250 word perfumer excerpt in which a scent is recognised by everyone and claimed by no one.
+B0034;Creative storytelling;Write a 200-250 word quarry story about a staircase that climbs into solid, uncut rock.
+B0035;Creative storytelling;Compose a 200-250 word radio-studio scene receiving a request from a call sign decommissioned in 1961.
+B0036;Creative storytelling;Write a 200-250 word orchard excerpt in which picked fruit contains tomorrow's weather.
+B0037;Creative storytelling;Create a 200-250 word story about a locksmith asked to open a door that has no building around it.
+B0038;Creative storytelling;Write a 200-250 word mural scene in which the wall finishes the painting overnight.
+B0039;Creative storytelling;Compose a 200-250 word deep-sea story about singing that travels along a fibre-optic cable.
+B0040;Creative storytelling;Write a 200-250 word inn scene whose guestbook fills itself with departures that have not happened.
+B0041;Creative storytelling;Create a 200-250 word kite-maker excerpt in which the kite tugs toward a buried street address.
+B0042;Creative storytelling;Write a 200-250 word mill story about grain that arrives already ground into readable words.
+B0043;Creative storytelling;Compose a 200-250 word dispatch scene in which an emergency call originates from the hospital roof.
+B0044;Creative storytelling;Write a 200-250 word silversmith excerpt whose spoons tarnish into the shape of unknown maps.
+B0045;Creative storytelling;Create a 200-250 word university-porter story about a corridor that is longer after midnight.
+B0046;Creative storytelling;Write a 200-250 word foghorn-keeper scene in which the horn answers a ship that does not appear on radar.
+B0047;Creative storytelling;Compose a 200-250 word garden story about a compost heap that yields a living metal key.
+B0048;Creative storytelling;Write a 200-250 word street-sweeper excerpt featuring a ticket to a theatre that burned down decades ago.
+B0049;Creative storytelling;Create a 200-250 word glassblower scene in which a finished vase contains a second, smaller room.
+B0050;Creative storytelling;Write a 200-250 word cave-cartography story about finding one's own handwriting in an unentered chamber.
+B0051;Technical explanations;Explain how a write-ahead log protects a database against crash recovery in 200-250 words.
+B0052;Technical explanations;Describe how TLS 1.3 performs a handshake and why it reduced round trips compared with TLS 1.2 in 200-250 words.
+B0053;Technical explanations;Explain the difference between blue-green and canary deployments in 200-250 words, including a failure-mode example.
+B0054;Technical explanations;Describe how an LSM-tree stores and compacts data on disk in 200-250 words.
+B0055;Technical explanations;Explain how vector clocks detect causality in a distributed key-value store in 200-250 words.
+B0056;Technical explanations;Describe how eBPF programs attach to kernel hooks and why operators use them for observability in 200-250 words.
+B0057;Technical explanations;Explain how a B-tree index supports range queries differently from a hash index in 200-250 words.
+B0058;Technical explanations;Describe how speculative execution works in a modern CPU and why it created Spectre-class issues in 200-250 words.
+B0059;Technical explanations;Explain how QUIC multiplexes streams over UDP and what head-of-line blocking it avoids in 200-250 words.
+B0060;Technical explanations;Describe how a consensus algorithm like Raft elects a leader and replicates a log in 200-250 words.
+B0061;Technical explanations;Explain how a column-store database encodes and compresses data for analytic scans in 200-250 words.
+B0062;Technical explanations;Describe how ASLR and stack canaries make memory-corruption exploits harder in 200-250 words.
+B0063;Technical explanations;Explain how a query planner chooses between nested-loop and hash joins in 200-250 words.
+B0064;Technical explanations;Describe how WebAssembly sandboxes code in the browser and what it cannot access by default in 200-250 words.
+B0065;Technical explanations;Explain how erasure coding differs from triple replication for object storage durability in 200-250 words.
+B0066;Technical explanations;Explain how VxLAN encapsulates Ethernet segments across an IP underlay in 200-250 words.
+B0067;Technical explanations;Explain how CRDTs merge concurrent updates without a central lock in 200-250 words.
+B0068;Technical explanations;Describe how a GPU warp executes threads in lockstep and what divergence costs in 200-250 words.
+B0069;Technical explanations;Explain how DKIM, SPF, and DMARC together authenticate email senders in 200-250 words.
+B0070;Technical explanations;Describe how a log-structured merge of SSTables is vacuumed in a storage engine in 200-250 words.
+B0071;Technical explanations;Explain how capability-based security differs from access-control lists in 200-250 words.
+B0072;Technical explanations;Describe how HTTP/2 uses HPACK header compression and why CRIME-like attacks mattered in 200-250 words.
+B0073;Technical explanations;Explain how a bloom filter answers set-membership queries and when false positives appear in 200-250 words.
+B0074;Technical explanations;Describe how a type-checker enforces parametric polymorphism in a language like Haskell or OCaml in 200-250 words.
+B0075;Technical explanations;Explain how NCCL coordinates all-reduce across GPUs in a data-parallel training job in 200-250 words.
+B0076;Technical explanations;Describe how a copy-on-write filesystem such as Btrfs or ZFS snapshots a volume in 200-250 words.
+B0077;Technical explanations;Explain how a reverse proxy terminates TLS and routes by SNI in 200-250 words.
+B0078;Technical explanations;Describe how SAT solvers use unit propagation and clause learning at a high level in 200-250 words.
+B0079;Technical explanations;Explain how a Merkle tree lets a client verify one record in a large dataset in 200-250 words.
+B0080;Technical explanations;Describe how backpressure is implemented in a streaming system such as Kafka consumers in 200-250 words.
+B0081;Technical explanations;Explain how a NUMA-aware allocator reduces remote-memory latency in 200-250 words.
+B0082;Technical explanations;Describe how WebRTC establishes a peer connection through ICE, STUN, and TURN in 200-250 words.
+B0083;Technical explanations;Explain how a static single assignment (SSA) form helps a compiler optimise code in 200-250 words.
+B0084;Technical explanations;Describe how rate-limiting algorithms such as token bucket and leaky bucket differ in 200-250 words.
+B0085;Technical explanations;Explain how a hardware security module stores keys so software cannot export them in 200-250 words.
+B0086;Technical explanations;Describe how a graph query engine traverses edges compared with a relational join in 200-250 words.
+B0087;Technical explanations;Explain how idempotency keys make retried payment APIs safe in 200-250 words.
+B0088;Technical explanations;Explain how late-arriving events are handled in an event-time windowed aggregation in 200-250 words.
+B0089;Technical explanations;Explain how address-space layout of ELF binaries places text, data, and heap in 200-250 words.
+B0090;Technical explanations;Describe how a service mesh sidecar intercepts traffic for retries and mTLS in 200-250 words.
+B0091;Technical explanations;Explain how JPEG chroma subsampling reduces file size and what artefacts it introduces in 200-250 words.
+B0092;Technical explanations;Describe how a write-through cache differs from write-back in a CPU memory hierarchy in 200-250 words.
+B0093;Technical explanations;Explain how OAuth 2.1 public clients use PKCE to protect authorisation codes in 200-250 words.
+B0094;Technical explanations;Describe how a persistent data structure shares unchanged nodes after an update in 200-250 words.
+B0095;Technical explanations;Explain how BGP chooses a path and why a route leak can blackhole traffic in 200-250 words.
+B0096;Technical explanations;Describe how a just-in-time compiler decides which bytecode to native-compile in 200-250 words.
+B0097;Technical explanations;Explain how a floating-point fused multiply-add differs from separate multiply and add in 200-250 words.
+B0098;Technical explanations;Describe how a message queue implements at-least-once versus exactly-once delivery in 200-250 words.
+B0099;Technical explanations;Explain how a cgroup limits CPU and memory for a container in 200-250 words.
+B0100;Technical explanations;Describe how a suffix array supports fast substring search in a large text in 200-250 words.
+B0101;Data analysis reports;In 200-250 words, explain how to diagnose Simpson's paradox in a hospital-outcomes table and what stratified reporting should show.
+B0102;Data analysis reports;Write a 200-250 word briefing on when a Wilcoxon rank-sum test is preferable to a two-sample t-test, with a small applied example.
+B0103;Data analysis reports;Describe in 200-250 words how to read a calibration plot for a probability classifier and what a low Brier score does not guarantee.
+B0104;Data analysis reports;Explain in 200-250 words how multiple-testing correction with Benjamini-Hochberg changes which marketing A/B variants you ship.
+B0105;Data analysis reports;Write a 200-250 word methods note on leakage from future-derived features in a churn model and how a time-based split prevents it.
+B0106;Data analysis reports;In 200-250 words, interpret a funnel-drop heatmap for a checkout flow and distinguish UX friction from bot traffic.
+B0107;Data analysis reports;Describe in 200-250 words how to use propensity-score matching on observational clinic data and what remains untestable.
+B0108;Data analysis reports;Explain in 200-250 words how a seasonal-trend decomposition (STL) separates a retail series and when residuals still look structured.
+B0109;Data analysis reports;Write a 200-250 word guide to reading a SHAP summary plot without treating feature importance as causal.
+B0110;Data analysis reports;In 200-250 words, explain how to audit class imbalance in fraud detection and why accuracy is a misleading headline metric.
+B0111;Data analysis reports;Describe in 200-250 words how a difference-in-differences design estimates a congestion-charge effect and what parallel trends requires.
+B0112;Data analysis reports;Write a 200-250 word note on winsorising versus log-transforming spend data before regression, including when each distorts inference.
+B0113;Data analysis reports;Explain in 200-250 words how to construct a cohort retention table and why last-click attribution can still mislead it.
+B0114;Data analysis reports;In 200-250 words, describe how k-fold cross-validation nested around hyperparameter search avoids optimistic AUC.
+B0115;Data analysis reports;Write a 200-250 word interpretation of a confusion-matrix cost grid when false negatives are ten times costlier than false positives.
+B0116;Data analysis reports;Describe in 200-250 words how to detect concept drift in a weekly credit-score model using PSI and a holdout replay.
+B0117;Data analysis reports;Explain in 200-250 words how mixed-effects models handle students nested in classrooms for a tutoring-program evaluation.
+B0118;Data analysis reports;Write a 200-250 word briefing on synthetic-control methods for a single-city policy change and what donor-pool choice implies.
+B0119;Data analysis reports;In 200-250 words, explain how to report missingness (MCAR/MAR/MNAR) in a survey and which imputations you would not defend.
+B0120;Data analysis reports;Describe in 200-250 words how a Lorenz curve and Gini coefficient summarise inequality in household energy use.
+B0121;Data analysis reports;Write a 200-250 word guide to choosing between Poisson and negative-binomial models for monthly accident counts.
+B0122;Data analysis reports;Explain in 200-250 words how to read a partial-dependence plot that disagrees with a univariate scatter for the same feature.
+B0123;Data analysis reports;In 200-250 words, describe how an interrupted time-series analysis should present a hospital-hygiene intervention.
+B0124;Data analysis reports;Write a 200-250 word note on sample-ratio mismatch in online experiments and the first checks an analyst should run.
+B0125;Data analysis reports;Describe in 200-250 words how to validate a geospatial clustering of shops without leaking adjacent-hex features into the labels.
+B0126;Data analysis reports;Explain in 200-250 words how bootstrap confidence intervals for a median income estimate should be presented to a non-technical board.
+B0127;Data analysis reports;Write a 200-250 word comparison of ROC and PR curves when positives are rarer than 2 percent.
+B0128;Data analysis reports;In 200-250 words, interpret a variance-inflation-factor table for a housing-price regression with collinear amenities.
+B0129;Data analysis reports;Describe in 200-250 words how to build a data-quality scorecard for daily sensor feeds (gaps, range, stuck values).
+B0130;Data analysis reports;Explain in 200-250 words how a stepped-wedge trial differs from a classic RCT for rolling out a clinic checklist.
+B0131;Data analysis reports;Write a 200-250 word briefing on using CUPED or pre-period covariates to reduce variance in a product experiment.
+B0132;Data analysis reports;In 200-250 words, explain how to document a reproducible SQL-to-dashboard pipeline so an auditor can rerun last quarter's KPI.
+B0133;Data analysis reports;Describe in 200-250 words how survival analysis (Kaplan-Meier plus Cox) should be reported for subscription cancellations.
+B0134;Data analysis reports;Write a 200-250 word caution on ecological fallacy when correlating neighbourhood averages with individual loan defaults.
+B0135;Data analysis reports;Explain in 200-250 words how to choose a bandwidth for a regression-discontinuity on a scholarship test cutoff.
+B0136;Data analysis reports;In 200-250 words, describe how anomaly-detection alerts should be triaged when seasonality and promotions coincide.
+B0137;Data analysis reports;Write a 200-250 word guide to reporting heterogeneous treatment effects without p-hacking subgroup slices.
+B0138;Data analysis reports;Describe in 200-250 words how a Sankey diagram of energy flows can hide conversion-factor assumptions.
+B0139;Data analysis reports;Explain in 200-250 words how to test stationarity before fitting an ARIMA and what a unit-root result changes.
+B0140;Data analysis reports;Write a 200-250 word note on using conformal prediction intervals around a demand forecast for inventory.
+B0141;Data analysis reports;In 200-250 words, interpret a correspondence-analysis biplot of survey attitudes without over-reading proximity.
+B0142;Data analysis reports;Describe in 200-250 words how to design a power analysis for a cluster-randomised school meal study.
+B0143;Data analysis reports;Write a 200-250 word briefing on joining CRM and web-log tables without creating fan-out duplication of revenue.
+B0144;Data analysis reports;Explain in 200-250 words how a Benford-law screen on invoice amounts should be followed up, not treated as proof of fraud.
+B0145;Data analysis reports;In 200-250 words, describe how to present a decision-curve analysis so clinicians can compare two diagnostic models.
+B0146;Data analysis reports;Write a 200-250 word explanation of winsorised means versus trimmed means for executive compensation tables.
+B0147;Data analysis reports;Describe in 200-250 words how a hidden-Markov model might be used on wearable-sensor activity states and how to validate it.
+B0148;Data analysis reports;Explain in 200-250 words how to audit training-serving skew between a batch feature store and online inference.
+B0149;Data analysis reports;Write a 200-250 word guide to reporting number-needed-to-treat alongside relative risk in a public-health memo.
+B0150;Data analysis reports;In 200-250 words, describe how a pre-registered analysis plan should handle a failed randomisation check.
+B0151;Casual conversation;Write a 200-250 word casual chat between two neighbours comparing notes after a surprisingly loud street fair.
+B0152;Casual conversation;In 200-250 words, write a friendly voice-note transcript about trying a new baker and accidentally ordering too much bread.
+B0153;Casual conversation;Write a 200-250 word casual conversation in which two colleagues decompress after a fire-drill that lasted through lunch.
+B0154;Casual conversation;In 200-250 words, write as if texting a cousin about the tiny joy of finding the exact spare button in a junk drawer.
+B0155;Casual conversation;Write a 200-250 word catch-up between friends deciding whether a houseplant is dramatic or actually thirsty.
+B0156;Casual conversation;In 200-250 words, write a casual cafe conversation about the ethics of reclaiming a forgotten scarf on the chair.
+B0157;Casual conversation;Write a 200-250 word chat in which someone explains why they now walk the long way home from the station.
+B0158;Casual conversation;In 200-250 words, write two roommates negotiating the sacredness of the last ice-cube tray in a conversational tone.
+B0159;Casual conversation;Write a 200-250 word friendly rant-and-rebuttal about public playlists that keep inserting the same three songs.
+B0160;Casual conversation;In 200-250 words, write a conversation about learning to like tomatoes late in life, as if telling it to a friend.
+B0161;Casual conversation;Write a 200-250 word casual exchange between cousins arguing affectionately about the correct way to pack a picnic.
+B0162;Casual conversation;In 200-250 words, write a chat explaining why a perfectly good umbrella was left on a tram on purpose.
+B0163;Casual conversation;Write a 200-250 word conversation about the small panic of waving back at someone who was waving at the person behind you.
+B0164;Casual conversation;In 200-250 words, write friends comparing notes on which supermarket self-checkout voice sounds the most judgemental.
+B0165;Casual conversation;Write a 200-250 word casual story-conversation about finally using the fancy mugs that were 'for guests'.
+B0166;Casual conversation;In 200-250 words, write two former classmates talking about still not knowing how to fold a fitted sheet.
+B0167;Casual conversation;Write a 200-250 word chat about the weather app being wrong and the dog being right.
+B0168;Casual conversation;In 200-250 words, write a conversational recap of getting lost in a furniture shop and pretending it was intentional.
+B0169;Casual conversation;Write a 200-250 word friendly debate on whether leftover rice tastes better the next day.
+B0170;Casual conversation;In 200-250 words, write a conversation about the first time someone successfully assembled a flat-pack without leftover screws.
+B0171;Casual conversation;Write a 200-250 word casual catch-up about a neighbourhood cat that has three names depending on the street.
+B0172;Casual conversation;In 200-250 words, write friends discussing the emotional weight of a loyalty-card stamp card that is one coffee away.
+B0173;Casual conversation;Write a 200-250 word chat about discovering a forgotten photograph in a winter coat.
+B0174;Casual conversation;In 200-250 words, write a conversation on holding the lift for a stranger and then sharing an awkward twelve-floor silence.
+B0175;Casual conversation;Write a 200-250 word casual exchange about trying to return a wave from a tour bus full of people.
+B0176;Casual conversation;In 200-250 words, write two siblings teasing each other about who still sleeps with the hallway light on when visiting home.
+B0177;Casual conversation;Write a 200-250 word conversation about the triumph of matching Tupperware lids on the first try.
+B0178;Casual conversation;In 200-250 words, write a chat explaining why someone collects boarding-pass stubs they never look at.
+B0179;Casual conversation;Write a 200-250 word friendly talk about the morality of taking the last biscuit if you brought the packet.
+B0180;Casual conversation;In 200-250 words, write a conversation about learning a neighbour's name after three years of hallway nods.
+B0181;Casual conversation;Write a 200-250 word casual recap of a power cut that turned into an unplanned candlelit board-game night.
+B0182;Casual conversation;In 200-250 words, write friends talking through the etiquette of eating chips quietly in a library.
+B0183;Casual conversation;Write a 200-250 word chat about a second-hand book with someone else's shopping list used as a bookmark.
+B0184;Casual conversation;In 200-250 words, write a conversation about trying to look busy while waiting for a delayed friend at a station.
+B0185;Casual conversation;Write a 200-250 word casual exchange on whether talking to houseplants is more for the plant or the person.
+B0186;Casual conversation;In 200-250 words, write two colleagues gossiping kindly about the office kettle and its unofficial schedule.
+B0187;Casual conversation;Write a 200-250 word conversation about the guilt of skipping a podcast episode and never catching up.
+B0188;Casual conversation;In 200-250 words, write a chat about buying flowers for oneself and then inventing a story when asked.
+B0189;Casual conversation;Write a 200-250 word friendly ramble about a local bakery that knows an order before it is spoken.
+B0190;Casual conversation;In 200-250 words, write a conversation about the tiny heartbreak of a favourite pen running out mid-sentence.
+B0191;Casual conversation;Write a 200-250 word casual debate on the correct temperature of a hotel shower versus a home shower.
+B0192;Casual conversation;In 200-250 words, write friends discussing a dream so boring they still needed to tell someone.
+B0193;Casual conversation;Write a 200-250 word chat about accidentally becoming the person who waters the office cactus.
+B0194;Casual conversation;In 200-250 words, write a conversation about finding a childhood nickname written inside an old rucksack.
+B0195;Casual conversation;Write a 200-250 word casual catch-up about a train delay that produced an unexpectedly good sandwich.
+B0196;Casual conversation;In 200-250 words, write two neighbours talking about the mysterious person who always leaves a shopping trolley perfectly parked.
+B0197;Casual conversation;Write a 200-250 word conversation about trying not to cry at a sentimental advert and failing anyway.
+B0198;Casual conversation;In 200-250 words, write a chat explaining the comfort of rewatching the same cooking show without ever cooking along.
+B0199;Casual conversation;Write a 200-250 word friendly talk about the first spring day you leave a coat at home and immediately regret it.
+B0200;Casual conversation;In 200-250 words, write a conversation about a group chat that woke up solely to send photographs of clouds.
+B0201;Marketing copy;Write 200-250 words of persuasive copy for a refillable fountain-pen subscription aimed at people who hate disposable plastic pens.
+B0202;Marketing copy;Create 200-250 words of launch copy for a quiet cabin hotel that sells silence as the amenity, not extra screens.
+B0203;Marketing copy;Write 200-250 words of marketing copy for a city bike-share that unlocks with a library card instead of an app account.
+B0204;Marketing copy;Develop 200-250 words of promotional copy for a weeknight cooking kit that uses only one pan and twenty minutes.
+B0205;Marketing copy;Write 200-250 words of persuasive copy for insulated lunch tins designed for people who eat at their desk without a microwave.
+B0206;Marketing copy;Create 200-250 words of campaign copy for a neighbourhood tool library opening its first spring lending season.
+B0207;Marketing copy;Write 200-250 words of marketing copy for a wool-repair service that darns jumpers by post.
+B0208;Marketing copy;Develop 200-250 words of launch email copy for a language-app that only teaches phrases you need at railway ticket windows.
+B0209;Marketing copy;Write 200-250 words of persuasive copy for a daylight alarm clock aimed at shift workers, without medical claims.
+B0210;Marketing copy;Create 200-250 words of brochure copy for a small ferry company selling sunrise crossings as a commute, not a tour.
+B0211;Marketing copy;Write 200-250 words of marketing copy for compostable glitter for community theatre, aimed at prop managers.
+B0212;Marketing copy;Develop 200-250 words of product-page copy for modular bookshelves that grow one cube at a time for rented flats.
+B0213;Marketing copy;Write 200-250 words of persuasive copy for a rain-cape designed to cover both a person and a bicycle basket.
+B0214;Marketing copy;Create 200-250 words of campaign copy for a second-hand musical-instrument shop guaranteeing a free first lesson.
+B0215;Marketing copy;Write 200-250 words of marketing copy for oat-milk gelato that leads with texture, not with being dairy-free.
+B0216;Marketing copy;Develop 200-250 words of launch copy for a pocket sewing kit aimed at people who travel with one jacket.
+B0217;Marketing copy;Write 200-250 words of persuasive copy for a community-supported fishery box with a Wednesday evening pickup.
+B0218;Marketing copy;Create 200-250 words of website copy for a tiny-press publisher selling short books meant to be finished on a single train ride.
+B0219;Marketing copy;Write 200-250 words of marketing copy for noise-dampening curtains sold to people in converted warehouse flats.
+B0220;Marketing copy;Develop 200-250 words of promotional copy for a walking-tour company that bans headphones and uses only paper maps.
+B0221;Marketing copy;Write 200-250 words of persuasive copy for a refill station inside a grocer for olive oil, vinegar, and washing-up liquid.
+B0222;Marketing copy;Create 200-250 words of campaign copy for a weekend pottery studio that fires pieces for people with no kiln at home.
+B0223;Marketing copy;Write 200-250 words of marketing copy for a collapsible colander aimed at campers who already own too many gadgets.
+B0224;Marketing copy;Develop 200-250 words of product copy for a fountain-pen ink made from urban-foraged oak galls, sold as a limited batch.
+B0225;Marketing copy;Write 200-250 words of persuasive copy for a night-bus wifi voucher bundled with a paperback from the station kiosk.
+B0226;Marketing copy;Create 200-250 words of launch copy for a plant-rental service for pop-up shops that cannot keep plants year-round.
+B0227;Marketing copy;Write 200-250 words of marketing copy for a pocket brass compass sold as a gift for people who already have too many chargers.
+B0228;Marketing copy;Develop 200-250 words of brochure copy for a hill-farm cheese club that ships only when a wheel is actually ready.
+B0229;Marketing copy;Write 200-250 words of persuasive copy for blackout-lined cycling gloves aimed at winter commuters.
+B0230;Marketing copy;Create 200-250 words of campaign copy for a neighbourhood darkroom reopening with evening intro sessions.
+B0231;Marketing copy;Write 200-250 words of marketing copy for a stackable lunchbox that locks so soup survives a bicycle ride.
+B0232;Marketing copy;Develop 200-250 words of email copy announcing a 72-hour preorder for a locally made beeswax wrap set.
+B0233;Marketing copy;Write 200-250 words of persuasive copy for a quiet electric kettle marketed on pitch, not on extra buttons.
+B0234;Marketing copy;Create 200-250 words of website copy for a small press that prints poetry broadsides meant to be posted on kitchen walls.
+B0235;Marketing copy;Write 200-250 words of marketing copy for a rainproof map case for hikers who still refuse phone GPS as a primary tool.
+B0236;Marketing copy;Develop 200-250 words of launch copy for a mending-cafe pop-up inside a department store's unused fitting rooms.
+B0237;Marketing copy;Write 200-250 words of persuasive copy for a compact travel chess set with pieces that will not rattle in a rucksack.
+B0238;Marketing copy;Create 200-250 words of campaign copy for a community orchard selling autumn juice by subscription.
+B0239;Marketing copy;Write 200-250 words of marketing copy for cork yoga blocks made from wine-industry offcuts, without greenwashing cliches.
+B0240;Marketing copy;Develop 200-250 words of product-page copy for a wall clock with only a minute hand, sold as an antidote to meeting culture.
+B0241;Marketing copy;Write 200-250 words of persuasive copy for a fold-flat crate used by market traders who pack down in five minutes.
+B0242;Marketing copy;Create 200-250 words of brochure copy for a canal-boat B&B that sells the sound of water more than the interior design.
+B0243;Marketing copy;Write 200-250 words of marketing copy for a compact harmonica workshop aimed at adult beginners.
+B0244;Marketing copy;Develop 200-250 words of promotional copy for a midnight bakery that sells only three breads and a waiting list.
+B0245;Marketing copy;Write 200-250 words of persuasive copy for linen tea towels sold in a set of two so one can actually dry while the other works.
+B0246;Marketing copy;Create 200-250 words of campaign copy for a repairable wireless mouse with screw-accessible battery, aimed at offices.
+B0247;Marketing copy;Write 200-250 words of marketing copy for a seasonal seed tin that includes a pencil and a planting calendar card.
+B0248;Marketing copy;Develop 200-250 words of launch copy for a tram-window photography walk sold to people who already commute that line.
+B0249;Marketing copy;Write 200-250 words of persuasive copy for a ceramic pour-over cone that fits a standard mug, no extra carafe required.
+B0250;Marketing copy;Create 200-250 words of website copy for a small foundry that casts replacement brass house numbers for historic streets.
+B0251;News reporting;Write a 200-250 word objective news report about a city reopening a pedestrian tunnel closed since a 1998 flood.
+B0252;News reporting;In journalistic style, write a 200-250 word article on a university library that will stay open 24 hours during exam month only.
+B0253;News reporting;Write a 200-250 word news report about a harbour crane strike delaying grain shipments for a third consecutive day.
+B0254;News reporting;In 200-250 words, report on a town vote to convert a disused cinema into a municipal indoor market.
+B0255;News reporting;Write a 200-250 word factual news piece on a regional rail operator testing hydrogen shunters in a freight yard.
+B0256;News reporting;In journalistic style, write a 200-250 word report about a heatwave triggering a night-time watering ban for sports pitches.
+B0257;News reporting;Write a 200-250 word news article on archaeologists pausing a tram-line dig after uncovering a medieval tannery pit.
+B0258;News reporting;In 200-250 words, cover a hospital announcing that a new MRI will run overnight to clear a six-month backlog.
+B0259;News reporting;Write a 200-250 word objective report on a coastal village installing a siren system after two false-tsunami alerts.
+B0260;News reporting;In journalistic style, write a 200-250 word story about a bakery co-operative winning a contract to supply school breakfasts.
+B0261;News reporting;Write a 200-250 word news report on a data-centre proposal that a planning committee deferred pending noise readings.
+B0262;News reporting;In 200-250 words, report on ferry passengers stranded overnight after a fog closure, including official statements.
+B0263;News reporting;Write a 200-250 word article about a national park closing one trail after a boardwalk failure injured no one.
+B0264;News reporting;In journalistic style, write a 200-250 word report on a city testing painted 'rain gardens' along a flood-prone avenue.
+B0265;News reporting;Write a 200-250 word news piece on a factory recalling a batch of bicycle helmets over a cracked-strap complaint rate.
+B0266;News reporting;In 200-250 words, cover a council by-election called after a councillor resigned to take a university post.
+B0267;News reporting;Write a 200-250 word objective report on astronomers confirming a previously uncatalogued comet visible to binoculars.
+B0268;News reporting;In journalistic style, write a 200-250 word story about night buses being rerouted around a collapsed water main.
+B0269;News reporting;Write a 200-250 word news report on a museum returning a misattributed portrait after pigment analysis.
+B0270;News reporting;In 200-250 words, report on a fishing quota meeting that ended without agreement, quoting both skippers and regulators.
+B0271;News reporting;Write a 200-250 word article on a startup's rooftop greenhouse losing a crop to a hailstorm, with insurance still assessing.
+B0272;News reporting;In journalistic style, write a 200-250 word report about a chess tournament evacuated after a fire alarm, later ruled a fault.
+B0273;News reporting;Write a 200-250 word news piece on a bridge weight limit being lowered pending a spring inspection.
+B0274;News reporting;In 200-250 words, cover students occupying a disused lecture hall to protest a rent rise, and the university's response.
+B0275;News reporting;Write a 200-250 word objective report on a pharmaceutical plant pausing a line after a sterile-room pressure alarm.
+B0276;News reporting;In journalistic style, write a 200-250 word story about a marathon being shortened by 800 metres due to a gas leak.
+B0277;News reporting;Write a 200-250 word news report on a library deleting late fees and publishing the first month's return-rate figures.
+B0278;News reporting;In 200-250 words, report on a wind-farm cable fault that cut output without causing household blackouts.
+B0279;News reporting;Write a 200-250 word article on a court delaying a landmark tenancy case because a translator was unavailable.
+B0280;News reporting;In journalistic style, write a 200-250 word report about bees being relocated from a courthouse roof before renovations.
+B0281;News reporting;Write a 200-250 word news piece on a city testing number-plate cameras only at a school-run pinch point, with privacy groups quoted.
+B0282;News reporting;In 200-250 words, cover a ferry company adding a wheelchair-accessible gangway after a passenger complaint was upheld.
+B0283;News reporting;Write a 200-250 word objective report on a wildfire watch being lifted after overnight rain, with remaining trail closures.
+B0284;News reporting;In journalistic style, write a 200-250 word story about a symphony cancelling a premiere because the score parts went missing in transit.
+B0285;News reporting;Write a 200-250 word news report on a supermarket chain trialling silent hours without tannoy adverts.
+B0286;News reporting;In 200-250 words, report on a sinkhole closing two lanes of a ring road and the diversion agreed with bus operators.
+B0287;News reporting;Write a 200-250 word article on researchers publishing open bathymetry data for a previously poorly mapped fjord.
+B0288;News reporting;In journalistic style, write a 200-250 word report about a mayoral debate being moved after a venue's ceiling leak.
+B0289;News reporting;Write a 200-250 word news piece on a textile mill reopening one shed with a smaller workforce and a union statement.
+B0290;News reporting;In 200-250 words, cover a dog-fouling bylaw that will start with warnings rather than fines, according to the council.
+B0291;News reporting;Write a 200-250 word objective report on a satellite internet outage affecting mountain clinics for fourteen hours.
+B0292;News reporting;In journalistic style, write a 200-250 word story about a community college cancelling in-person labs after a ventilation fault.
+B0293;News reporting;Write a 200-250 word news report on a river cruise being halted because water levels fell below the published minimum.
+B0294;News reporting;In 200-250 words, report on a patent office backlog falling after weekend overtime, with remaining wait times.
+B0295;News reporting;Write a 200-250 word article on a city planting 4,000 street trees and publishing the species mix after a pest warning.
+B0296;News reporting;In journalistic style, write a 200-250 word report about a blackout in a stadium that delayed kickoff by 26 minutes.
+B0297;News reporting;Write a 200-250 word news piece on a ferry rescue of a drifting kayak, with coastguard confirming no serious injuries.
+B0298;News reporting;In 200-250 words, cover a planning inquiry into a warehouse whose night lighting neighbours say is keeping livestock awake.
+B0299;News reporting;Write a 200-250 word objective report on a university naming a mathematics prize after a retired night-school tutor.
+B0300;News reporting;In journalistic style, write a 200-250 word story about a snowplough convoy reopening a mountain pass at dawn.
+B0301;Instructional tutorials;Write a 200-250 word step-by-step guide on how to bleed a bicycle hydraulic disc brake at home.
+B0302;Instructional tutorials;In 200-250 words, provide a tutorial on seasoning a carbon-steel frying pan for the first time.
+B0303;Instructional tutorials;Create a 200-250 word instructional guide on how to pack a rucksack so a tent sits above the hip belt.
+B0304;Instructional tutorials;Write a 200-250 word tutorial explaining how to replace a bicycle inner tube without pinching it.
+B0305;Instructional tutorials;In 200-250 words, explain how to set a simple three-point lighting setup for a desk video call.
+B0306;Instructional tutorials;Provide a 200-250 word tutorial on how to clean a clogged espresso-machine steam wand.
+B0307;Instructional tutorials;Write a 200-250 word step-by-step guide on how to mend a small hole in a knit jumper with duplicate stitch.
+B0308;Instructional tutorials;In 200-250 words, create an instructional tutorial on how to flatten a warped paperback under weight without cracking the spine.
+B0309;Instructional tutorials;Write a 200-250 word guide explaining how to calibrate a kitchen scale with a known weight.
+B0310;Instructional tutorials;In 200-250 words, provide step-by-step instructions on how to winterise an outdoor tap.
+B0311;Instructional tutorials;Create a 200-250 word tutorial on how to fold a fitted sheet so it stacks with other linens.
+B0312;Instructional tutorials;Write a 200-250 word step-by-step guide on how to replace windshield-wiper blades on a passenger car.
+B0313;Instructional tutorials;In 200-250 words, explain how to proofread a printed document using a ruler and a second-pass method.
+B0314;Instructional tutorials;Provide a 200-250 word tutorial on how to start a charcoal chimney without lighter fluid.
+B0315;Instructional tutorials;Write a 200-250 word guide on how to hang a heavy mirror using a French cleat.
+B0316;Instructional tutorials;In 200-250 words, create instructions for backing up photos from a phone to an encrypted external drive.
+B0317;Instructional tutorials;Write a 200-250 word tutorial on how to sharpen a kitchen knife on a whetstone, including burr detection.
+B0318;Instructional tutorials;In 200-250 words, provide a step-by-step guide to packing a checked suitcase so liquids stay legal and leak-proof.
+B0319;Instructional tutorials;Create a 200-250 word instructional guide on how to reset a tripped RCBO and when not to retry.
+B0320;Instructional tutorials;Write a 200-250 word tutorial explaining how to clean mildew from a silicone shower seal without damaging grout.
+B0321;Instructional tutorials;In 200-250 words, explain how to set up a basic rain barrel with an overflow hose.
+B0322;Instructional tutorials;Provide a 200-250 word tutorial on how to thread a sewing machine and sew a straight seam on scrap fabric first.
+B0323;Instructional tutorials;Write a 200-250 word step-by-step guide on how to jump-start a car with cables, including polarity checks.
+B0324;Instructional tutorials;In 200-250 words, create a tutorial on how to organise a physical inbox using a simple three-folder system.
+B0325;Instructional tutorials;Write a 200-250 word guide explaining how to replace a bicycle chain using a chain tool.
+B0326;Instructional tutorials;In 200-250 words, provide instructions on how to descaling a kettle with citric acid rather than vinegar.
+B0327;Instructional tutorials;Create a 200-250 word tutorial on how to tape a sprained ankle for a short walk to a clinic, with a caution to seek care.
+B0328;Instructional tutorials;Write a 200-250 word step-by-step guide on how to mount a bird box facing away from prevailing wind.
+B0329;Instructional tutorials;In 200-250 words, explain how to create a simple HTML page and open it locally in a browser.
+B0330;Instructional tutorials;Provide a 200-250 word tutorial on how to clean a camera sensor with a blower, and when to stop and use a lab.
+B0331;Instructional tutorials;Write a 200-250 word guide on how to ferment a small jar of sauerkraut on a kitchen counter.
+B0332;Instructional tutorials;In 200-250 words, create an instructional tutorial on how to read a paper map using a compass and a legend.
+B0333;Instructional tutorials;Write a 200-250 word tutorial explaining how to replace a dripping tap washer on a traditional two-handle basin.
+B0334;Instructional tutorials;In 200-250 words, provide step-by-step instructions on how to secure a bookcase to a wall with an anti-tip strap.
+B0335;Instructional tutorials;Create a 200-250 word tutorial on how to make an overnight yoghurt naan dough on a kitchen counter.
+B0336;Instructional tutorials;Write a 200-250 word step-by-step guide on how to defog car headlights with a plastic-polish kit.
+B0337;Instructional tutorials;In 200-250 words, explain how to label and store leftover paint so a touch-up still matches in a year.
+B0338;Instructional tutorials;Provide a 200-250 word tutorial on how to use a torque wrench on bicycle stem bolts without crushing the steerer.
+B0339;Instructional tutorials;Write a 200-250 word guide explaining how to set up a compost tumbler and what not to add in week one.
+B0340;Instructional tutorials;In 200-250 words, create instructions for scanning old letters at a consistent DPI and naming the files.
+B0341;Instructional tutorials;Write a 200-250 word tutorial on how to re-wax a canvas jacket after a wet season.
+B0342;Instructional tutorials;In 200-250 words, provide a step-by-step guide to packing a first-aid kit for a day hike.
+B0343;Instructional tutorials;Create a 200-250 word instructional guide on how to bleed radiators at the start of the heating season.
+B0344;Instructional tutorials;Write a 200-250 word tutorial explaining how to set two-factor authentication on an email account using an authenticator app.
+B0345;Instructional tutorials;In 200-250 words, explain how to clean a record with a carbon-fibre brush and when wet-cleaning is worth it.
+B0346;Instructional tutorials;Provide a 200-250 word tutorial on how to tie a bowline and when a figure-eight is the safer alternative.
+B0347;Instructional tutorials;Write a 200-250 word step-by-step guide on how to replace a vacuum-cleaner filter and reset any blockage sensor.
+B0348;Instructional tutorials;In 200-250 words, create a tutorial on how to prune summer-fruiting raspberries after harvest.
+B0349;Instructional tutorials;Write a 200-250 word guide on how to set a mechanical metronome and practise a slow scale with it.
+B0350;Instructional tutorials;In 200-250 words, provide instructions on how to pack glass jars for a postal gift without using polystyrene peanuts.
+B0351;Philosophical discourse;Analyse Bernard Williams's integrity objection to utilitarianism in 200-250 words, using a concrete professional dilemma.
+B0352;Philosophical discourse;Explain Frankfurt-style counterexamples and what they try to show about moral responsibility in 200-250 words.
+B0353;Philosophical discourse;Discuss Onora O'Neill's account of trust as a response to vulnerability in 200-250 words.
+B0354;Philosophical discourse;Evaluate Philippa Foot's doctrine of double effect as applied to palliative sedation in 200-250 words.
+B0355;Philosophical discourse;Analyse the swampman thought experiment and what it suggests about mental content in 200-250 words.
+B0356;Philosophical discourse;Explain standpoint epistemology without reducing it to the claim that lived experience is automatically true, in 200-250 words.
+B0357;Philosophical discourse;Discuss Harry Frankfurt's distinction between bullshit and lying in 200-250 words, with a public-life example.
+B0358;Philosophical discourse;Evaluate the capabilities approach (Sen/Nussbaum) as a metric of justice beyond income in 200-250 words.
+B0359;Philosophical discourse;Analyse Molyneux's problem and what a first-sight case would or would not settle in 200-250 words.
+B0360;Philosophical discourse;Explain constitutive luck versus resultant luck in 200-250 words, distinguishing both from Nagel's moral luck essay without repeating it wholesale.
+B0361;Philosophical discourse;Discuss the ethics of placebos in clinical practice when patients request 'something extra' in 200-250 words.
+B0362;Philosophical discourse;Evaluate Iris Murdoch's idea of unselfing attention as a moral practice in 200-250 words.
+B0363;Philosophical discourse;Analyse the preface paradox and what it implies for believing each claim in a book you wrote in 200-250 words.
+B0364;Philosophical discourse;Explain conceptual engineering as a method in philosophy in 200-250 words, using the example of 'planets'.
+B0365;Philosophical discourse;Discuss the moral status of future persons in climate policy without relying on a simple discount-rate slogan, in 200-250 words.
+B0366;Philosophical discourse;Evaluate Elizabeth Anderson's private government thesis about workplace power in 200-250 words.
+B0367;Philosophical discourse;Analyse Mary's room (the knowledge argument) and a physicalist reply in 200-250 words.
+B0368;Philosophical discourse;Explain the distinction between killing and letting die as debated after Rachels, in 200-250 words.
+B0369;Philosophical discourse;Discuss Confucian role ethics as an alternative to Western autonomy talk in 200-250 words.
+B0370;Philosophical discourse;Evaluate the simulation argument's weakest premise rather than its headline conclusion in 200-250 words.
+B0371;Philosophical discourse;Explain C.S. Peirce's abduction as a form of inference distinct from induction and deduction in 200-250 words.
+B0372;Philosophical discourse;Explain the open-question argument against defining good as a natural property in 200-250 words.
+B0373;Philosophical discourse;Discuss care ethics' critique of impartiality using a hospital-triage example in 200-250 words.
+B0374;Philosophical discourse;Evaluate whether forgiveness can be morally required, drawing on hierarchical versus elective accounts, in 200-250 words.
+B0375;Philosophical discourse;Analyse the bootstrapping problem for higher-order evidence in 200-250 words.
+B0376;Philosophical discourse;Explain Buddhist no-self (anatta) as a philosophical thesis, not a wellness slogan, in 200-250 words.
+B0377;Philosophical discourse;Discuss the ethics of statistical discrimination when a predictor is accurate but socially toxic in 200-250 words.
+B0378;Philosophical discourse;Evaluate Heidegger's tool-analysis (ready-to-hand) as a claim about everyday coping in 200-250 words.
+B0379;Philosophical discourse;Analyse the paradox of hedonism and what it suggests for wellbeing policy in 200-250 words.
+B0380;Philosophical discourse;Explain supererogation and why a duty-only ethics struggles with saintly acts in 200-250 words.
+B0381;Philosophical discourse;Discuss the extended mind thesis and a conservative reply about coupling versus constitution in 200-250 words.
+B0382;Philosophical discourse;Evaluate contractualism (Scanlon) as a way to refuse aggregating small harms across millions in 200-250 words.
+B0383;Philosophical discourse;Analyse the problem of old evidence for Bayesian confirmation in 200-250 words.
+B0384;Philosophical discourse;Explain Ubuntu as a relational account of personhood in 200-250 words, avoiding tourist-summary cliches.
+B0385;Philosophical discourse;Discuss moral encumbrance: whether you can be responsible for injustices you did not author in 200-250 words.
+B0386;Philosophical discourse;Evaluate the Chinese room as an argument about understanding versus symbol shuffling in 200-250 words.
+B0387;Philosophical discourse;Analyse Kavka's toxin puzzle and what intention it suggests we cannot form in 200-250 words.
+B0388;Philosophical discourse;Explain negative versus positive freedom (Berlin) using a contemporary housing example in 200-250 words.
+B0389;Philosophical discourse;Discuss the ethics of opt-out organ donation as a question of consent quality in 200-250 words.
+B0390;Philosophical discourse;Evaluate process philosophy's claim that events are more basic than substances in 200-250 words.
+B0391;Philosophical discourse;Analyse the surprise-examination paradox in 200-250 words without treating it as a mere joke.
+B0392;Philosophical discourse;Explain moral residual (Williams) after a forced choice in 200-250 words.
+B0393;Philosophical discourse;Discuss whether aesthetic value is response-dependent using a disputed restoration of a painting in 200-250 words.
+B0394;Philosophical discourse;Evaluate longtermism's demandingness as an ethical, not only a forecasting, problem in 200-250 words.
+B0395;Philosophical discourse;Analyse the frame problem as a challenge for classical AI and for theories of relevance in 200-250 words.
+B0396;Philosophical discourse;Explain strawsonian reactive attitudes as a defence of holding people responsible in 200-250 words.
+B0397;Philosophical discourse;Discuss the ethics of memory modification if a therapy could delete a specific shame in 200-250 words.
+B0398;Philosophical discourse;Evaluate whether group agents can be blameworthy over and above their members in 200-250 words.
+B0399;Philosophical discourse;Analyse Pascal's mugging as a decision-theory stress test in 200-250 words.
+B0400;Philosophical discourse;Explain the difference between metaphysical and practical possibility in debates about climate targets in 200-250 words.
+B0401;Legal/contractual writing;Draft a 200-250 word source-code escrow clause for a critical-vendor software licence.
+B0402;Legal/contractual writing;Write a 200-250 word moral-rights waiver suitable for a photographer commissioning agreement in a jurisdiction that allows limited waivers.
+B0403;Legal/contractual writing;Create a 200-250 word change-of-control notice provision for a SaaS subscription terms document.
+B0404;Legal/contractual writing;Draft a 200-250 word most-favoured-customer clause with an audit-right limitation for a components supply contract.
+B0405;Legal/contractual writing;Write a 200-250 word step-in rights clause for a facilities-management agreement if the contractor becomes insolvent.
+B0406;Legal/contractual writing;Create a 200-250 word academic-visitor IP clause covering inventions made using host-university equipment.
+B0407;Legal/contractual writing;Draft a 200-250 word retention-of-title clause for a wholesale timber supply contract until invoices are paid in full.
+B0408;Legal/contractual writing;Write a 200-250 word data-processing addendum section on sub-processor objections for a payroll vendor.
+B0409;Legal/contractual writing;Create a 200-250 word liquidated-damages clause for delayed delivery of custom laboratory glassware.
+B0410;Legal/contractual writing;Draft a 200-250 word key-person clause for a boutique consultancy retainer.
+B0411;Legal/contractual writing;Write a 200-250 word clickwrap formation clause stating when terms bind a user who creates an account.
+B0412;Legal/contractual writing;Create a 200-250 word set-off clause for a wholesale produce supply agreement.
+B0413;Legal/contractual writing;Draft a 200-250 word restoration-to-original-condition clause for a pop-up retail licence of a listed building.
+B0414;Legal/contractual writing;Write a 200-250 word ethical-wall provision for a law firm seconding staff to a competitor client.
+B0415;Legal/contractual writing;Create a 200-250 word take-or-pay clause for a small biogas offtake contract.
+B0416;Legal/contractual writing;Draft a 200-250 word residual-knowledge carve-out for a mutual NDA between two engineering firms.
+B0417;Legal/contractual writing;Write a 200-250 word suspension-for-nonpayment clause that still protects hosted customer data for 30 days.
+B0418;Legal/contractual writing;Create a 200-250 word publicity-consent clause for using a chef's name on a restaurant franchise menu.
+B0419;Legal/contractual writing;Draft a 200-250 word conforming-goods inspection window for a textile import contract (CIF).
+B0420;Legal/contractual writing;Write a 200-250 word background-check authorisation paragraph for a contractor who will enter schools as a visiting technician, limited to lawful checks.
+B0421;Legal/contractual writing;Create a 200-250 word escrow-of-domain-names clause in a brand-acquisition SPA.
+B0422;Legal/contractual writing;Draft a 200-250 word continuous-improvement KPI annex introduction for a cleaning-services contract.
+B0423;Legal/contractual writing;Write a 200-250 word anti-bribery representation for a sales-agent agreement in a high-risk territory.
+B0424;Legal/contractual writing;Create a 200-250 word force-majeure carve-in stating that labour strikes at the supplier's only plant are not excused.
+B0425;Legal/contractual writing;Draft a 200-250 word records-retention clause aligned with tax plus product-liability limitation periods for a medical-device distributor.
+B0426;Legal/contractual writing;Write a 200-250 word remote-access security schedule paragraph for a building-management system vendor.
+B0427;Legal/contractual writing;Create a 200-250 word trainee-secondment clause allocating professional-insurance deductibles.
+B0428;Legal/contractual writing;Draft a 200-250 word volume-rebate clawback if annual purchases fall more than 20 percent.
+B0429;Legal/contractual writing;Write a 200-250 word user-generated-content moderation cooperation clause for a marketplace terms of service.
+B0430;Legal/contractual writing;Create a 200-250 word greenhouse-gas reporting cooperation clause in a logistics master services agreement.
+B0431;Legal/contractual writing;Draft a 200-250 word right-to-audit clause limited to two on-site days per year for a contract manufacturer.
+B0432;Legal/contractual writing;Write a 200-250 word surviving-obligations paragraph listing which clauses outlive termination of a research collaboration.
+B0433;Legal/contractual writing;Create a 200-250 word exclusive-remedy warranty clause for refurbished industrial motors.
+B0434;Legal/contractual writing;Draft a 200-250 word local-content subcontracting commitment for a municipal streetlighting contract.
+B0435;Legal/contractual writing;Write a 200-250 word photo-release for a street-market documentary that still allows a stallholder to refuse close-ups of faces.
+B0436;Legal/contractual writing;Create a 200-250 word service-credit table narrative for 99.5 percent uptime on a ticketing API.
+B0437;Legal/contractual writing;Draft a 200-250 word no-poach-free clause that permits general job advertisements but not targeted recruiting of named teams.
+B0438;Legal/contractual writing;Write a 200-250 word customs-classification cooperation clause for a dual-use electronics exporter.
+B0439;Legal/contractual writing;Create a 200-250 word disaster-recovery RTO/RPO statement for a payroll processor addendum.
+B0440;Legal/contractual writing;Draft a 200-250 word student-internship IP clause stating the intern owns coursework not assigned as work product.
+B0441;Legal/contractual writing;Write a 200-250 word accessibility-conformance clause (WCAG) for a public-sector website redesign contract.
+B0442;Legal/contractual writing;Create a 200-250 word escrow-instruction amendment process for a three-party source-code escrow.
+B0443;Legal/contractual writing;Draft a 200-250 word late-payload demurrage clause for a barge transport contract.
+B0444;Legal/contractual writing;Write a 200-250 word social-media influencer disclosure clause requiring clear advertising labels.
+B0445;Legal/contractual writing;Create a 200-250 word data-localisation paragraph for a cloud backup service used by a regional hospital group.
+B0446;Legal/contractual writing;Draft a 200-250 word tool-loan agreement clause for a film production borrowing a museum artefact replica.
+B0447;Legal/contractual writing;Write a 200-250 word step-down insurance requirement as a construction project moves from build to defects period.
+B0448;Legal/contractual writing;Create a 200-250 word open-data licence exception for datasets that include rare-disease counts below a k-anonymity threshold.
+B0449;Legal/contractual writing;Draft a 200-250 word quiet-enjoyment clause for a rooftop-telecoms lease above residential flats.
+B0450;Legal/contractual writing;Write a 200-250 word termination-for-convenience clause with a wind-down of prepaid unused tokens in a usage-based API contract.
+B0451;Entertainment reviews;Write a 200-250 word review of a newly opened planetarium show about exoplanet weather, focusing on science accuracy versus spectacle.
+B0452;Entertainment reviews;Compose a 200-250 word critical assessment of a revival of a little-known 1920s chamber operetta staged in a railway waiting room.
+B0453;Entertainment reviews;Write a 200-250 word review of a limited-run stop-motion series about night-shift harbour workers, evaluating pacing and craft.
+B0454;Entertainment reviews;Craft a 200-250 word review of a compact travel espresso maker, judging crema claims against hotel-room practicality.
+B0455;Entertainment reviews;Write a 200-250 word review of an exhibition of repaired ceramics (kintsugi and contemporary joins) in a regional gallery.
+B0456;Entertainment reviews;Compose a 200-250 word assessment of a concept album built entirely from field recordings of a single tram line.
+B0457;Entertainment reviews;Write a 200-250 word review of a tabletop game about municipal budgeting, focusing on whether the mechanics teach or merely frustrate.
+B0458;Entertainment reviews;Craft a 200-250 word review of a poetry collection whose only setting is a 24-hour laundrette.
+B0459;Entertainment reviews;Write a 200-250 word review of a restored 70mm print of a 1960s mountaineering documentary, commenting on the new score.
+B0460;Entertainment reviews;Compose a 200-250 word review of noise-cancelling earplugs marketed to open-plan offices, tested on a real train commute.
+B0461;Entertainment reviews;Write a 200-250 word critical piece on a site-specific dance performed in a working car park at dusk.
+B0462;Entertainment reviews;Craft a 200-250 word review of a historical novel told only through footnotes and errata slips.
+B0463;Entertainment reviews;Write a 200-250 word review of a community-radio comedy serial about a struggling brass band.
+B0464;Entertainment reviews;Compose a 200-250 word assessment of a retro handheld console reissue, comparing build quality with nostalgia value.
+B0465;Entertainment reviews;Write a 200-250 word review of a food documentary that follows one fishing boat through a quota season.
+B0466;Entertainment reviews;Craft a 200-250 word review of an immersive audio walk designed for a botanic garden after closing time.
+B0467;Entertainment reviews;Write a 200-250 word review of a debut novel set in a translation booth during a three-day summit.
+B0468;Entertainment reviews;Compose a 200-250 word review of a jazz trio's live album recorded in a library reading room.
+B0469;Entertainment reviews;Write a 200-250 word critique of a fashion exhibition devoted entirely to mended workwear.
+B0470;Entertainment reviews;Craft a 200-250 word review of a puzzle adventure game that forbids on-screen hints, evaluating fairness.
+B0471;Entertainment reviews;Write a 200-250 word review of a street-food stall tasting menu served only from a converted tram kiosk.
+B0472;Entertainment reviews;Compose a 200-250 word assessment of a biography of a mid-century cartographer, focusing on narrative versus archive dumping.
+B0473;Entertainment reviews;Write a 200-250 word review of a chamber-choir recording of contemporary settings of weather forecasts.
+B0474;Entertainment reviews;Craft a 200-250 word review of a mechanical keyboard aimed at quiet offices, judging thock claims against neighbours.
+B0475;Entertainment reviews;Write a 200-250 word review of a graphic memoir about working nights in a hospital switchboard.
+B0476;Entertainment reviews;Compose a 200-250 word review of an outdoor sculpture trail that uses only recycled harbour chain.
+B0477;Entertainment reviews;Write a 200-250 word critical assessment of a prestige television miniseries about a failed polar expedition, on historical licence.
+B0478;Entertainment reviews;Craft a 200-250 word review of a fountain-pen ink in a limited iron-gall blue, focusing on shading and feathering on cheap paper.
+B0479;Entertainment reviews;Write a 200-250 word review of a wordless picture book aimed at adults, set entirely in waiting rooms.
+B0480;Entertainment reviews;Compose a 200-250 word review of a vinyl reissue whose liner notes argue with the original 1972 press release.
+B0481;Entertainment reviews;Write a 200-250 word review of a stand-up hour filmed in a working laundromat, evaluating crowd work versus bits.
+B0482;Entertainment reviews;Craft a 200-250 word review of a strategy board game about restoring a single city tram line.
+B0483;Entertainment reviews;Write a 200-250 word review of a short-story collection in which every narrator is a night watchman in a different century.
+B0484;Entertainment reviews;Compose a 200-250 word assessment of a restored arcade cabinet in a museum, as both object and playable game.
+B0485;Entertainment reviews;Write a 200-250 word review of a culinary memoir structured as twelve failed sourdoughs.
+B0486;Entertainment reviews;Craft a 200-250 word review of a headphones-required installation of a thunderstorm recorded inside a grain silo.
+B0487;Entertainment reviews;Write a 200-250 word critique of a political satire podcast that never names the country it is about.
+B0488;Entertainment reviews;Compose a 200-250 word review of a compact film camera reissue, judging light leaks as charm or defect.
+B0489;Entertainment reviews;Write a 200-250 word review of a ballet that restages a famous shipwreck using only rope and silence.
+B0490;Entertainment reviews;Craft a 200-250 word review of an open-world cycling videogame set on a single real island's roads.
+B0491;Entertainment reviews;Write a 200-250 word review of an essay collection about public swimming pools as civic architecture.
+B0492;Entertainment reviews;Compose a 200-250 word assessment of a folk-horror film whose monster is a municipal filing system.
+B0493;Entertainment reviews;Write a 200-250 word review of a craft beer collaboration whose tasting notes read like a shipping forecast.
+B0494;Entertainment reviews;Craft a 200-250 word review of a desktop synthesizer aimed at people who cannot read notation.
+B0495;Entertainment reviews;Write a 200-250 word review of a station-waiting-room play that lasts exactly as long as a delayed train announcement cycle.
+B0496;Entertainment reviews;Compose a 200-250 word review of a nature photography book that refuses captions until the last page.
+B0497;Entertainment reviews;Write a 200-250 word critique of a true-crime series that withholds the perpetrator's name until episode six on purpose.
+B0498;Entertainment reviews;Craft a 200-250 word review of a folding travel guitar, judging intonation after airline cargo.
+B0499;Entertainment reviews;Write a 200-250 word review of a cookbook of recipes that each use only a hotel kettle and a supermarket bag.
+B0500;Entertainment reviews;Compose a 200-250 word assessment of an archival jazz radio series reconstructed from damaged acetate discs.
