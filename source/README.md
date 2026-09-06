@@ -16,3 +16,5 @@ The core pipeline is organized as follows:
 The public copy uses repository-relative data and output paths. Scheduler-only submission and monitoring utilities are intentionally excluded because they are infrastructure-specific and do not implement the scientific method.
 
 The analytical behavior comes from the original experiment source. Release-only changes replace machine-specific paths and omit the serialization of host and scheduler identifiers.
+
+The source code is licensed under the [Apache License 2.0](../LICENSE). Academic users are also requested to cite the associated paper using [`CITATION.cff`](../CITATION.cff).

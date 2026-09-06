@@ -20,3 +20,5 @@
 The Stage 1 and Stage 2 files were derived from the original `training_results_overview` JSONs. Hostnames, scheduler identifiers, cache filenames, resource time series, and local paths were removed. Experimental metrics, hyperparameters, split sizes, preprocessing settings, timing summaries, and software versions were retained.
 
 Configuration tags containing `3480-2320` record the originally requested sample counts. The actual fields inside those JSONs show 3,480 training samples and the capped canonical holdout of 1,160 validation samples.
+
+These results are licensed under [CC BY 4.0](../LICENSE-DATA). Please attribute the associated paper and indicate any modifications.

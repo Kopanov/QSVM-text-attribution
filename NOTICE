@@ -1,0 +1,17 @@
+QSVM Text Attribution
+Copyright 2026 Kalin Kopanov and Tatiana Atanasova
+
+The source code in source/ is licensed under the Apache License,
+Version 2.0.
+
+Data, results, environment records, documentation, and citation metadata
+are licensed under the Creative Commons Attribution 4.0 International
+License. See LICENSE-DATA.
+
+Academic users are requested to cite:
+
+Kalin Kopanov and Tatiana Atanasova, "A Systematic Benchmark of Quantum
+Support Vector Machines for Interpretable Attribution of AI-Generated
+Text" (2026).
+
+Machine-readable citation metadata is provided in CITATION.cff.

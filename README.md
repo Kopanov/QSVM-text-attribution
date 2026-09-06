@@ -72,6 +72,13 @@ Each Stage 1 and Stage 2 run JSON is a sanitized compact copy of the original ru
 
 Some generated texts contain fictional names, organizations, or email-like strings because they are model outputs. They are not repository credentials or author contact records.
 
+## Citation
+
+If you use the code, data, or results in academic work, please cite the associated paper shown at the top of this README. Machine-readable citation metadata is provided in [`CITATION.cff`](CITATION.cff).
+
 ## License
 
-Code and released artifacts are provided under the [GNU Affero General Public License v3.0](LICENSE).
+- Source code in `source/` is licensed under the [Apache License 2.0](LICENSE).
+- Data, results, environment records, documentation, and citation metadata are licensed under [Creative Commons Attribution 4.0 International](LICENSE-DATA).
+
+CC BY 4.0 requires attribution when the licensed research materials are shared or adapted. Apache-2.0 requires preservation of its copyright and attribution notices, but it does not independently require a scholarly citation.

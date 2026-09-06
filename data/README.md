@@ -13,3 +13,5 @@ The CSV files use semicolon delimiters. Prompt IDs preserve the identifiers used
 The main prompt file contains 2,900 prompt records. Four prompt strings each occur twice, giving 2,896 distinct prompt strings; the released records exactly match the prompt multiset in `main_corpus.csv`.
 
 All text is machine-generated. Email-like addresses and named entities appearing inside responses are part of the generated corpus and are not credentials or author contact data.
+
+These data and their released compilation are licensed under [CC BY 4.0](../LICENSE-DATA). Please attribute the associated paper and indicate any modifications.

@@ -5,7 +5,7 @@ type: software
 version: 1.0.0
 date-released: 2026-09-06
 repository-code: "https://github.com/Kopanov/QSVM-text-attribution"
-license: AGPL-3.0-only
+license: Apache-2.0
 authors:
   - family-names: Kopanov
     given-names: Kalin

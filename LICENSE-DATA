@@ -1,0 +1,34 @@
+Creative Commons Attribution 4.0 International (CC BY 4.0)
+
+Copyright 2026 Kalin Kopanov and Tatiana Atanasova
+
+The contents of the following directories are licensed under the
+Creative Commons Attribution 4.0 International License:
+
+  data/
+  environment/
+  results/
+
+The repository documentation, including README files and citation
+metadata, is also licensed under CC BY 4.0.
+
+You are free to share and adapt this material for any purpose, including
+commercial purposes, provided that you give appropriate credit, provide
+a link to the license, and indicate whether changes were made.
+
+License deed and legal code:
+https://creativecommons.org/licenses/by/4.0/
+https://creativecommons.org/licenses/by/4.0/legalcode
+
+Suggested attribution:
+
+  Kalin Kopanov and Tatiana Atanasova, "A Systematic Benchmark of
+  Quantum Support Vector Machines for Interpretable Attribution of
+  AI-Generated Text" (2026), QSVM Text Attribution repository,
+  https://github.com/Kopanov/QSVM-text-attribution
+
+This license applies only to rights that the licensors are authorized
+to grant. Third-party names and trademarks remain the property of their
+respective owners. The corpus consists of machine-generated text; the
+license covers the authors' rights, if any, in the selection, arrangement,
+annotation, and released compilation.
